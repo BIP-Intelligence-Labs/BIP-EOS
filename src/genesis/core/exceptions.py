@@ -1,48 +1,20 @@
-
-\"\"\"Genesis Core Exceptions\"\"\"
+"""Genesis EEOS Exception Framework."""
 
 class GenesisError(Exception):
-    \"\"\"Base exception for all Genesis errors.\"\"\"
+    """Base exception for all Genesis errors."""
 
-class ConfigurationError(GenesisError):
-    pass
-
-class ContextError(GenesisError):
-    pass
-
-class ManifestError(GenesisError):
-    pass
-
-class FilesystemError(GenesisError):
-    pass
-
-class ValidationError(GenesisError):
-    pass
-
-class VerificationError(GenesisError):
-    pass
-
-class TemplateError(GenesisError):
-    pass
 
 class EngineError(GenesisError):
-    pass
+    """Raised for engine-related failures."""
 
-class BuildError(GenesisError):
-    pass
 
-class CLIError(GenesisError):
-    pass
+class RepositoryError(EngineError):
+    """Raised for repository engine failures."""
 
-EXCEPTION_REGISTRY = {
-    "configuration": ConfigurationError,
-    "context": ContextError,
-    "manifest": ManifestError,
-    "filesystem": FilesystemError,
-    "validation": ValidationError,
-    "verification": VerificationError,
-    "template": TemplateError,
-    "engine": EngineError,
-    "build": BuildError,
-    "cli": CLIError,
-}
+
+class ValidationError(GenesisError):
+    """Raised when validation fails."""
+
+
+class ConfigurationError(GenesisError):
+    """Raised for configuration errors."""
