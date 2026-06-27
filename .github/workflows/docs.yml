@@ -1,0 +1,6 @@
+name: Documentation
+
+on:
+  push:
+    paths:
+      - "docs/**"
