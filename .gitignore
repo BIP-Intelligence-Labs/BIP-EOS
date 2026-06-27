@@ -1,2 +1,9 @@
 __pycache__/
 .venv/
+
+# Genesis cleanup
+*.bak
+* (1).py
+
+# Python cache
+*.pyc
