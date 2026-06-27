@@ -32,16 +32,16 @@ Build the Genesis EEOS engineering foundation.
 
 | ID | Module | Status |
 |----|--------|--------|
-| GEB-001.000 | Repository Package | ✅ |
-| GEB-001.001 | Repository Engine | ✅ |
-| GEB-001.002 | Base Engine | ✅ |
-| GEB-001.003 | Repository Refactor | ✅ |
-| GEB-001.004 | Version Manager | ✅ |
-| GEB-001.005 | Exception Framework | ✅ |
-| GEB-001.006 | Repository Models | ✅ |
-| GEB-001.007 | Repository Validation | ✅ |
-| GEB-001.008 | Repository Manifest | ✅ |
-| GEB-001.009 | Repository Statistics | ✅ |
+| REP-001 | Repository Package | ✅ |
+| REP-002 | Repository Engine | ✅ |
+| GEN-001 | Base Engine | ✅ |
+| REP-003 | Repository Refactor | ✅ |
+| VER-001 | Version Manager | ✅ |
+| EXC-001 | Exception Framework | ✅ |
+| REP-004 | Repository Models | ✅ |
+| REP-005 | Repository Validation | ✅ |
+| REP-006 | Repository Manifest | ✅ |
+| REP-007 | Repository Statistics | ✅ |
 
 ---
 

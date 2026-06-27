@@ -1,4 +1,19 @@
+
 """
+REP-003
+create_geb_001_003.py
+
+Refactors the Repository Engine to inherit from BaseEngine.
+Run from the Genesis repository root:
+
+    python create_geb_001_003.py
+"""
+
+from pathlib import Path
+
+TARGET = Path("src/genesis/engines/repository/engine.py")
+
+ENGINE = '''"""
 Repository Engine
 REP-003
 """
@@ -28,3 +43,16 @@ class RepositoryEngine(BaseEngine):
             "path": path,
             "valid": True,
         }
+'''
+
+if not TARGET.exists():
+    raise FileNotFoundError(f"Cannot find {TARGET}")
+
+backup = TARGET.with_suffix(".py.bak")
+backup.write_text(TARGET.read_text(encoding="utf-8"), encoding="utf-8")
+
+TARGET.write_text(ENGINE, encoding="utf-8")
+
+print("Repository Engine refactored.")
+print(f"Backup : {backup}")
+print(f"Updated: {TARGET}")

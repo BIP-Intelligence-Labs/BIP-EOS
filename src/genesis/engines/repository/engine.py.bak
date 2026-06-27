@@ -1,30 +1,24 @@
 """
-GEN-001
-base_engine.py
-
 Genesis EEOS
-Base Engine
+GEB-001.001
+Repository Engine Foundation
 
-Save to:
-src/genesis/core/base_engine.py
+Save as:
+src/genesis/engines/repository/engine.py
 """
 
 from __future__ import annotations
 
 import logging
-from abc import ABC
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
-
 
 LOGGER = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True)
-class EngineMetadata:
-    """Immutable metadata shared by all Genesis engines."""
-
+class EngineInfo:
     name: str
     version: str
     description: str
@@ -32,61 +26,61 @@ class EngineMetadata:
     started_at: datetime | None
 
 
-class BaseEngine(ABC):
+class RepositoryEngine:
     """
-    Common lifecycle implementation for every Genesis engine.
-
-    All engines should inherit from this class.
+    Foundation lifecycle implementation for the Genesis
+    Repository Engine.
     """
 
-    NAME = "Base Engine"
+    NAME = "Repository Engine"
     VERSION = "0.1.0"
-    DESCRIPTION = "Genesis EEOS Base Engine"
 
     def __init__(self) -> None:
         self._initialized = False
         self._started_at: datetime | None = None
 
     def initialize(self) -> None:
-        """Initialize the engine."""
         if self._initialized:
-            LOGGER.debug("%s already initialized.", self.NAME)
+            LOGGER.debug("Repository Engine already initialized.")
             return
 
         self._initialized = True
         self._started_at = datetime.utcnow()
-        LOGGER.info("%s initialized.", self.NAME)
+        LOGGER.info("%s initialized", self.NAME)
 
     def shutdown(self) -> None:
-        """Shutdown the engine."""
         if not self._initialized:
             return
 
-        LOGGER.info("%s shutdown.", self.NAME)
         self._initialized = False
+        LOGGER.info("%s shutdown", self.NAME)
 
     @property
     def initialized(self) -> bool:
         return self._initialized
 
-    @property
-    def started_at(self) -> datetime | None:
-        return self._started_at
-
-    def metadata(self) -> EngineMetadata:
-        """Return immutable engine metadata."""
-        return EngineMetadata(
+    def info(self) -> EngineInfo:
+        return EngineInfo(
             name=self.NAME,
             version=self.VERSION,
-            description=self.DESCRIPTION,
+            description="Genesis Repository Engine",
             initialized=self._initialized,
             started_at=self._started_at,
         )
 
-    def health(self) -> dict[str, Any]:
-        """Return basic engine health."""
+    def metadata(self) -> dict[str, Any]:
+        return {
+            "name": self.NAME,
+            "version": self.VERSION,
+            "initialized": self._initialized,
+            "started_at": (
+                self._started_at.isoformat()
+                if self._started_at else None
+            ),
+        }
+
+    def health(self) -> dict[str, str]:
         return {
             "engine": self.NAME,
-            "version": self.VERSION,
             "status": "healthy" if self._initialized else "offline",
         }
