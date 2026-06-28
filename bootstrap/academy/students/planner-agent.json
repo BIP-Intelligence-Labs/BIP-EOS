@@ -1,0 +1,17 @@
+{
+    "id": "STUDENT-0001",
+    "name": "Planner Agent",
+    "status": "Active",
+    "engineering_level": "Apprentice",
+    "curriculum": "Engineering Core",
+    "knowledge": 0,
+    "lessons_completed": 0,
+    "exercises_completed": 0,
+    "certifications": [],
+    "enrolled": "2026-06-28",
+    "mentor": "BIP EOS Academy",
+    "notes": [
+        "First Academy student.",
+        "Founding engineering agent."
+    ]
+}
