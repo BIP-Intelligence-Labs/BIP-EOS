@@ -10,6 +10,7 @@ from .doctor import BootstrapDoctor
 from .repair import RepairManager
 from .release import ReleaseManager
 from .new import NewCommand
+from .discover import DiscoverCommand
 
 
 class Commands:
@@ -31,6 +32,10 @@ class Commands:
     def new_plugin(name: str) -> None:
         NewCommand().plugin(name)
 
+    @staticmethod
+    def discover(url: str) -> None:
+        DiscoverCommand().run(url)
+
 
 if __name__ == "__main__":
     print("Bootstrap Commands")
@@ -38,4 +43,5 @@ if __name__ == "__main__":
     print("doctor")
     print("repair")
     print("release")
+    print("discover")
     print("new_plugin(name)")

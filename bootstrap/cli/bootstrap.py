@@ -21,6 +21,9 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("release")
     sub.add_parser("root")
 
+    discover = sub.add_parser("discover")
+    discover.add_argument("url")
+
     new = sub.add_parser("new")
     new_sub = new.add_subparsers(dest="resource")
     plugin = new_sub.add_parser("plugin")
@@ -39,6 +42,9 @@ def main() -> int:
             Commands.repair()
         case "release":
             Commands.release()
+        case "discover":
+            Commands.discover(args.url)
+
         case "root":
             print(ProjectLocator.find_root())
         case "new":
