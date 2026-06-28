@@ -1,10 +1,14 @@
 """
 bootstrap/plugins/discovery/pipeline.py
 
-Universal Discovery Engine Pipeline
+Engineering Improvement:
+- Fetches the page only once.
+- Returns both the repository record and the downloaded HTML.
 """
 
 from __future__ import annotations
+
+from dataclasses import dataclass
 
 from .crawler import DiscoveryCrawler
 from .extractor import DiscoveryExtractor
@@ -14,8 +18,13 @@ from .scheduler import DiscoveryScheduler
 from .kernel_events import DiscoveryKernelEvents
 
 
+@dataclass
+class DiscoveryResult:
+    record: object
+    html: str
+
+
 class DiscoveryPipeline:
-    """Coordinates the end-to-end discovery workflow."""
 
     def __init__(self) -> None:
         self.scheduler = DiscoveryScheduler()
@@ -24,39 +33,56 @@ class DiscoveryPipeline:
         self.validator = DiscoveryValidator()
         self.repository = DiscoveryRepository()
 
-    def run(self, url: str):
-        DiscoveryKernelEvents.emit(DiscoveryKernelEvents.STARTED, url)
+    def run(self, url: str) -> DiscoveryResult:
+
+        DiscoveryKernelEvents.emit(
+            DiscoveryKernelEvents.STARTED,
+            url,
+        )
 
         self.scheduler.enqueue(url)
         job = self.scheduler.dequeue()
-        if job is None:
-            raise RuntimeError("No discovery job available.")
 
-        result = self.crawler.fetch(job.url)
+        if job is None:
+            raise RuntimeError("No queued discovery job.")
+
+        crawl = self.crawler.fetch(job.url)
+
         DiscoveryKernelEvents.emit(
-            DiscoveryKernelEvents.PAGE_FETCHED, job.url
+            DiscoveryKernelEvents.PAGE_FETCHED,
+            url,
         )
 
-        document = self.extractor.extract(result.content)
+        document = self.extractor.extract(crawl.content)
+
         DiscoveryKernelEvents.emit(
-            DiscoveryKernelEvents.EXTRACTED, job.url
+            DiscoveryKernelEvents.EXTRACTED,
+            url,
         )
 
         validation = self.validator.validate(document)
+
         if not validation.valid:
             raise ValueError("; ".join(validation.errors))
 
         DiscoveryKernelEvents.emit(
-            DiscoveryKernelEvents.VALIDATED, job.url
+            DiscoveryKernelEvents.VALIDATED,
+            url,
         )
 
-        record = self.repository.save(job.url, document)
-        DiscoveryKernelEvents.emit(
-            DiscoveryKernelEvents.STORED, job.url
-        )
+        record = self.repository.save(url, document)
 
         DiscoveryKernelEvents.emit(
-            DiscoveryKernelEvents.COMPLETED, job.url
+            DiscoveryKernelEvents.STORED,
+            url,
         )
 
-        return record
+        DiscoveryKernelEvents.emit(
+            DiscoveryKernelEvents.COMPLETED,
+            url,
+        )
+
+        return DiscoveryResult(
+            record=record,
+            html=crawl.content,
+        )
