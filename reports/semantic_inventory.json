@@ -1,0 +1,2347 @@
+[
+  {
+    "path": "ai",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "apply_discover_integration.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "ARCHITECTURE.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "archive",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "assets",
+    "type": "directory",
+    "role": "Assets"
+  },
+  {
+    "path": "bip",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/academy",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/adr",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/ai",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/builders",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/cli",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/core",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/docs",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/plugins",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/reports",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip/sales",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bip.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "bootstrap",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/academy.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/analytics.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/certification.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/certifications",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/certifications/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/curriculum",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/curriculum/core",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/curriculum/core/engineering",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/curriculum/core/engineering/001-engineering-philosophy.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/curriculum/core/engineering/002-clean-architecture.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/curriculum/core/engineering/003-solid-principles.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/curriculum/core/engineering/004-plugin-architecture.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/curriculum/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/datasets",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/datasets/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/evaluator.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/exams",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/exams/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/exercises",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/exercises/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/graduation.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/knowledge",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/knowledge/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/lessons",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/lessons/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/models.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/progress.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/prompts",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/prompts/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/recommendations.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/registry.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/reports",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/reports/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/research",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/research/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/sandbox",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/sandbox/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/scheduler.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/simulations",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/simulations/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/students",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/students/planner-agent.json",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/students/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/trainer.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/transcript.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/transcripts",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/academy/transcripts/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents/architect.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents/builder.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents/engineer.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents/planner.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents/researcher.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents/reviewer.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/agents/supervisor.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/memory",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/memory/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/memory/context.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/memory/embeddings.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/memory/repository.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/memory/sessions.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/models",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/models/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/models/agent.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/models/response.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/models/task.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/orchestration",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/orchestration/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/orchestration/coordinator.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/orchestration/pipeline.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/orchestration/task_queue.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/orchestration/workflow.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/prompts",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/prompts/architect.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/prompts/engineer.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/prompts/researcher.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/prompts/reviewer.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/providers",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/providers/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/providers/anthropic.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/providers/lmstudio.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/providers/ollama.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/providers/openai.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/reasoning",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/reasoning/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/reasoning/critic.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/reasoning/evaluator.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/reasoning/planner.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/reasoning/reflection.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/tools",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/tools/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/tools/engineering.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/tools/filesystem.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/tools/git.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/tools/plugins.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/tools/terminal.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/ai/tools/web.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/application.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/bootstrap.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/command_dispatcher.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/commands.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/discover.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/doctor.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/generator.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/new.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/project_locator.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/release.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/repair.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/cli/templates",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/commands",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/docs",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/architecture",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/architecture/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/architecture/system-architecture.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/decisions",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/decisions/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance/architecture_validator.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance/cleanup.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance/doctor.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance/duplicate_detector.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance/placeholder_detector.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/governance/upgrade.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/metrics",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/metrics/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/metrics/analyzer.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/metrics/ast_visitor.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/metrics/metrics.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/metrics/models.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/metrics/reporter.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/milestones",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/milestones/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/models",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/models/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/models/engineering_metrics.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/reporting",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/reporting/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/reporting/console.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/reporting/html.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/reporting/json.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/reporting/markdown.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/roadmaps",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/engineering/roadmaps/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/cli.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/configuration.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/event_bus.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/kernel.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/lifecycle.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/plugin_loader.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/registry.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/kernel/workspace.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/migrate_repository.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/builder_extractor.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/builder_pipeline.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/configuration.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/crawler.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/extractor.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/kernel_events.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/models.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/pipeline.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/plugin.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/README.md",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/recursive_discovery_engine.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/repository.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/scheduler.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/tests",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/tests/__init__.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/tests/test_plugin.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/ude.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/plugins/discovery/validator.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/repository_analyzer.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/repository_auditor.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/repository_semantic_analyzer.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/sprint_one.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/templates",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/tests",
+    "type": "directory",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap/version.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_cleanup.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_dashboard.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_docs_scaffold.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_kernel_v0_0_1.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_kernel_v0_0_2.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_metrics.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_metrics_ast.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_milestone.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_new.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_status.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_upgrade.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "bootstrap_upgrade_discovery.py",
+    "type": "file",
+    "role": "Bootstrap Framework"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "cleanup_kernel_placeholders.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "consolidated_architecture.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_academy.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_ai.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_bootstrap_engineering_lab_repo.ps1",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_cli.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_cli_scaffolder.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_engineering.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_genesis_structure.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_genesis_structure_fixed.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_lesson_001.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_manifesto.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_milestone_0001.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_milestone_0002.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_milestone_index.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_plugin.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "create_student_0001.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "discovery",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "docs",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/adr",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/api",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/architecture",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/architecture/ai-architecture.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/architecture/engineering-architecture.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/architecture/kernel-architecture.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/architecture/plugin-architecture.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/architecture/system-architecture.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/decisions",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/decisions/ADR-0001-BIP-EOS.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/decisions/ADR-0002-AI-Subsystem.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/decisions/ADR-0003-Engineering-Subsystem.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/decisions/ADR-0004-Plugin-Architecture.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/decisions/ADR-0005-Discovery-Engine.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/engineering",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/engineering/engineering-log.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/governance",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/governance/coding-standards.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/governance/contribution-guide.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/governance/engineering-principles.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/manifesto",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/manifesto/BIP_EOS_Manifesto.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/README.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/roadmap",
+    "type": "directory",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/roadmap/future.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/roadmap/milestone-bip-eos-foundation.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/roadmap/milestones.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/roadmap/roadmap.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "docs/roadmap/sprint-004.md",
+    "type": "file",
+    "role": "Documentation"
+  },
+  {
+    "path": "engineering",
+    "type": "directory",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/architecture",
+    "type": "directory",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/architecture/README.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/decisions",
+    "type": "directory",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/decisions/README.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/manifesto.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/milestones",
+    "type": "directory",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/milestones/MILESTONE-0001.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/milestones/MILESTONE-0002.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/milestones/README.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/README.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/sprints",
+    "type": "directory",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/sprints/README.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/sprints/sprint-001.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/standards",
+    "type": "directory",
+    "role": "Governance"
+  },
+  {
+    "path": "engineering/standards/README.md",
+    "type": "file",
+    "role": "Governance"
+  },
+  {
+    "path": "finalize_toolchain_layout.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "genesis.toml",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "Lab",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Architecture",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Archive",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Assets",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Documentation",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Experiments",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Knowledge",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/lab.toml",
+    "type": "file",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Programs",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Programs/Enterprise Foundation",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Programs/Enterprise Foundation/EB-001-Genesis",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Programs/Enterprise Foundation/EB-001-Genesis/eb.toml",
+    "type": "file",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Releases",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Research",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "Lab/Whitepapers",
+    "type": "directory",
+    "role": "Research/Lab"
+  },
+  {
+    "path": "LICENSE",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "logs",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "logs/2026-06-28.log",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "media",
+    "type": "directory",
+    "role": "Assets"
+  },
+  {
+    "path": "organize_repository_tools.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "package.toml",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "plugins",
+    "type": "directory",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/academy",
+    "type": "directory",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/academy/manifest.yaml",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/academy/plugin.py",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/academy/README.md",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/ai",
+    "type": "directory",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/ai/manifest.yaml",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/ai/plugin.py",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/ai/README.md",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/builders",
+    "type": "directory",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/builders/manifest.yaml",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/builders/plugin.py",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/builders/README.md",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/reports",
+    "type": "directory",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/reports/manifest.yaml",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/reports/plugin.py",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/reports/README.md",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/sales",
+    "type": "directory",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/sales/manifest.yaml",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/sales/plugin.py",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "plugins/sales/README.md",
+    "type": "file",
+    "role": "Plugin Runtime"
+  },
+  {
+    "path": "pyproject.toml",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "README.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "registry",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "registry/registry.json",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reorganize_toolchain.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "repair_discovery_placeholders.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "repair_discovery_plugin.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/architecture_analysis.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/duplicate_resolution.json",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/duplicates.json",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/migration_execution_log.json",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/migration_plan.json",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/repository_audit.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/repository_inventory.json",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/risk_assessment.json",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "reports/summary.json",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "requirements.txt",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "restructure_genesis.py",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "ROADMAP.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "scripts",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "SECURITY.md",
+    "type": "file",
+    "role": "Unclassified"
+  },
+  {
+    "path": "shared",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "src",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "src/genesis",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/academy",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/academy/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/ai",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/ai/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/builders",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/builders/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/bundles",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/bundles/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/cli",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/cli/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/cli/main.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core/base_engine.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core/context.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core/exceptions.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core/filesystem.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core/logging.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core/manifest.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/core/version.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/dashboard",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/dashboard/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/documentation",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/documentation/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engine",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engine/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines/repository",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines/repository/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines/repository/engine.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines/repository/manifest.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines/repository/models.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines/repository/statistics.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/engines/repository/validators.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/knowledge",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/knowledge/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/lab",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/lab/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/metrics",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/metrics/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/models",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/models/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/plugins",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/plugins/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/programs",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/programs/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/registry.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/releases",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/releases/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/reports",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/reports/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/sales",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/sales/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/services",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/services/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/standards",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/standards/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/templates",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/templates/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/utils",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/utils/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/verification",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/verification/__init__.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis/version.py",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis.egg-info",
+    "type": "directory",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis.egg-info/dependency_links.txt",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis.egg-info/PKG-INFO",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis.egg-info/SOURCES.txt",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "src/genesis.egg-info/top_level.txt",
+    "type": "file",
+    "role": "Production Source"
+  },
+  {
+    "path": "templates",
+    "type": "directory",
+    "role": "Unclassified"
+  },
+  {
+    "path": "tests",
+    "type": "directory",
+    "role": "Tests"
+  },
+  {
+    "path": "tests/README.md",
+    "type": "file",
+    "role": "Tests"
+  },
+  {
+    "path": "tools",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/legacy_installers",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/legacy_installers/create_geb_001_003.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/legacy_installers/create_geb_001_004.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/legacy_installers/create_geb_001_005.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/legacy_installers/create_geb_001_006.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/legacy_installers/create_geb_001_007.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/legacy_installers/create_geb_001_008.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/legacy_installers/create_geb_001_009.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/archive/README.md",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/cleanup",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/cleanup/archive_legacy_installers.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/cleanup/create_repository_cleanup.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/cleanup/README.md",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/generators",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/generators/create_repository_structure.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/generators/create_sprint_001.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/generators/README.md",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/installers",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/installers/create_github_foundation.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/installers/README.md",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/managers",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/managers/builder_manager.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/managers/engineering_manager.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/managers/manager.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/managers/release_manager.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/migrations",
+    "type": "directory",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/migrations/README.md",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/migrations/rename_engineering_ids.py",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "tools/README.md",
+    "type": "file",
+    "role": "Utilities"
+  },
+  {
+    "path": "upgrade_engineering_structure.py",
+    "type": "file",
+    "role": "Unclassified"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "generated": "2026-06-29T23:05:23.451544",
+  "plugins": [
+    "academy",
+    "ai",
+    "builders",
+    "reports",
+    "sales"
+  ],
+  "commands": [
+    "audit",
+    "docs",
+    "doctor",
+    "help",
+    "init",
+    "lead",
+    "plugins",
+    "registry",
+    "release",
+    "status",
+    "version"
+  ],
+  "engines": [
+    "documentation\\documentation_engine.py",
+    "plugins\\plugin_engine.py",
+    "registry\\registry_engine.py",
+    "repository\\repository_engine.py",
+    "runtime_engine.py",
+    "version\\version_engine.py"
+  ]
+}

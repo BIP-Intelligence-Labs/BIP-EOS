@@ -1,0 +1,807 @@
+[
+  {
+    "item": "bootstrap\\ai",
+    "recommended_destination": "plugins\\ai",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\ai",
+    "recommended_destination": "plugins\\ai",
+    "action": "REVIEW"
+  },
+  {
+    "item": "ai",
+    "recommended_destination": "plugins\\ai",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\ai",
+    "recommended_destination": "plugins\\ai",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tools\\archive",
+    "recommended_destination": "archive",
+    "action": "REVIEW"
+  },
+  {
+    "item": "discovery",
+    "recommended_destination": "bootstrap\\plugins\\discovery",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\docs",
+    "recommended_destination": "docs",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\docs",
+    "recommended_destination": "docs",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering",
+    "recommended_destination": "docs\\engineering",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\curriculum\\core\\engineering",
+    "recommended_destination": "docs\\engineering",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering",
+    "recommended_destination": "docs\\engineering",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins",
+    "recommended_destination": "plugins",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\plugins",
+    "recommended_destination": "plugins",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\plugins",
+    "recommended_destination": "plugins",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\reports",
+    "recommended_destination": "plugins\\reports",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\reports",
+    "recommended_destination": "plugins\\reports",
+    "action": "REVIEW"
+  },
+  {
+    "item": "reports",
+    "recommended_destination": "plugins\\reports",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\reports",
+    "recommended_destination": "plugins\\reports",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\templates",
+    "recommended_destination": "templates",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\cli\\templates",
+    "recommended_destination": "templates",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\templates",
+    "recommended_destination": "templates",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\tests",
+    "recommended_destination": "bootstrap\\tests",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tests",
+    "recommended_destination": "bootstrap\\tests",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tools",
+    "recommended_destination": "bootstrap\\ai\\tools",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy",
+    "recommended_destination": "plugins\\academy",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\academy",
+    "recommended_destination": "plugins\\academy",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\academy",
+    "recommended_destination": "plugins\\academy",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\adr",
+    "recommended_destination": "docs\\adr",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\builders",
+    "recommended_destination": "plugins\\builders",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\builders",
+    "recommended_destination": "plugins\\builders",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\cli",
+    "recommended_destination": "bootstrap\\cli",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\cli",
+    "recommended_destination": "bootstrap\\cli",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\core",
+    "recommended_destination": "bootstrap\\academy\\curriculum\\core",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\core",
+    "recommended_destination": "bootstrap\\academy\\curriculum\\core",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bip\\sales",
+    "recommended_destination": "plugins\\sales",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\sales",
+    "recommended_destination": "plugins\\sales",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\architecture",
+    "recommended_destination": "docs\\architecture",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\architecture",
+    "recommended_destination": "docs\\architecture",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\decisions",
+    "recommended_destination": "docs\\decisions",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\decisions",
+    "recommended_destination": "docs\\decisions",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\governance",
+    "recommended_destination": "docs\\governance",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\milestones",
+    "recommended_destination": "bootstrap\\engineering\\milestones",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\standards",
+    "recommended_destination": "engineering\\standards",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\knowledge",
+    "recommended_destination": "bootstrap\\academy\\knowledge",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\metrics",
+    "recommended_destination": "bootstrap\\engineering\\metrics",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\models",
+    "recommended_destination": "bootstrap\\ai\\models",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\models",
+    "recommended_destination": "bootstrap\\ai\\models",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\prompts",
+    "recommended_destination": "bootstrap\\academy\\prompts",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\academy\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\ai\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\builders\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\reports\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\sales\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\cli\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\architecture\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\decisions\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\governance\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\milestones\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\roadmaps\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\certifications\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\curriculum\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\datasets\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\exams\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\exercises\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\knowledge\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\lessons\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\prompts\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\reports\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\research\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\sandbox\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\simulations\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\students\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\academy\\transcripts\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tests\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tools\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tools\\archive\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tools\\cleanup\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tools\\generators\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tools\\installers\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "tools\\migrations\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\architecture\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\decisions\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\milestones\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\sprints\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "engineering\\standards\\README.md",
+    "recommended_destination": "docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\version.py",
+    "recommended_destination": "bootstrap\\version.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\core\\version.py",
+    "recommended_destination": "bootstrap\\version.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\kernel\\registry.py",
+    "recommended_destination": "bootstrap\\academy\\registry.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\registry.py",
+    "recommended_destination": "bootstrap\\academy\\registry.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\cli\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\kernel\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\tests\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\governance\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\metrics\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\models\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\reporting\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\agents\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\memory\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\models\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\orchestration\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\providers\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\reasoning\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\tools\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\academy\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\ai\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\builders\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\bundles\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\cli\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\core\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\dashboard\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\documentation\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\engine\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\engines\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\knowledge\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\lab\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\metrics\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\models\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\plugins\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\programs\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\releases\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\reports\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\sales\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\services\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\standards\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\templates\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\utils\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\verification\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\engines\\repository\\__init__.py",
+    "recommended_destination": "bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\core\\context.py",
+    "recommended_destination": "bootstrap\\ai\\memory\\context.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\core\\filesystem.py",
+    "recommended_destination": "bootstrap\\ai\\tools\\filesystem.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\engines\\repository\\manifest.py",
+    "recommended_destination": "src\\genesis\\core\\manifest.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\models.py",
+    "recommended_destination": "bootstrap\\academy\\models.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\metrics\\models.py",
+    "recommended_destination": "bootstrap\\academy\\models.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "src\\genesis\\engines\\repository\\models.py",
+    "recommended_destination": "bootstrap\\academy\\models.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\ai\\manifest.yaml",
+    "recommended_destination": "plugins\\academy\\manifest.yaml",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\builders\\manifest.yaml",
+    "recommended_destination": "plugins\\academy\\manifest.yaml",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\reports\\manifest.yaml",
+    "recommended_destination": "plugins\\academy\\manifest.yaml",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\sales\\manifest.yaml",
+    "recommended_destination": "plugins\\academy\\manifest.yaml",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\ai\\plugin.py",
+    "recommended_destination": "plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\builders\\plugin.py",
+    "recommended_destination": "plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\reports\\plugin.py",
+    "recommended_destination": "plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "plugins\\sales\\plugin.py",
+    "recommended_destination": "plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\plugin.py",
+    "recommended_destination": "plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\architecture\\system-architecture.md",
+    "recommended_destination": "docs\\architecture\\system-architecture.md",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\reasoning\\evaluator.py",
+    "recommended_destination": "bootstrap\\academy\\evaluator.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\scheduler.py",
+    "recommended_destination": "bootstrap\\academy\\scheduler.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\engineering\\governance\\doctor.py",
+    "recommended_destination": "bootstrap\\cli\\doctor.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\configuration.py",
+    "recommended_destination": "bootstrap\\kernel\\configuration.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\orchestration\\pipeline.py",
+    "recommended_destination": "bootstrap\\plugins\\discovery\\pipeline.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\memory\\repository.py",
+    "recommended_destination": "bootstrap\\plugins\\discovery\\repository.py",
+    "action": "REVIEW"
+  },
+  {
+    "item": "bootstrap\\ai\\reasoning\\planner.py",
+    "recommended_destination": "bootstrap\\ai\\agents\\planner.py",
+    "action": "REVIEW"
+  }
+]

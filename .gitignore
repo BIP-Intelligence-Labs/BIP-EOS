@@ -1,9 +1,13 @@
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
 .venv/
-
-# Genesis cleanup
-*.bak
-* (1).py
-
-# Python cache
-*.pyc
+venv/

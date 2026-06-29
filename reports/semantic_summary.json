@@ -1,0 +1,16 @@
+{
+  "generated": "2026-06-28T19:24:57.656884",
+  "roles": {
+    "Unclassified": 68,
+    "Research/Lab": 16,
+    "Assets": 2,
+    "Bootstrap Framework": 210,
+    "Documentation": 30,
+    "Governance": 16,
+    "Plugin Runtime": 21,
+    "Utilities": 32,
+    "Production Source": 72,
+    "Tests": 2
+  },
+  "total_items": 469
+}

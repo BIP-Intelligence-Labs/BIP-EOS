@@ -1,0 +1,807 @@
+[
+  {
+    "item": "bootstrap\\ai",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\ai",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "ai",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\ai",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tools\\archive",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "discovery",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\docs",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\docs",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\curriculum\\core\\engineering",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\plugins",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\plugins",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\reports",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\reports",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "reports",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\reports",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\templates",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\cli\\templates",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\templates",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\tests",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tests",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tools",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\academy",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\academy",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\adr",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\builders",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\builders",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\cli",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\cli",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\core",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\core",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bip\\sales",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\sales",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\architecture",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\architecture",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\decisions",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\decisions",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\governance",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\milestones",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\standards",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\knowledge",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\metrics",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\models",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\models",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\prompts",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\academy\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\ai\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\builders\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\reports\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\sales\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\cli\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\architecture\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\decisions\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\governance\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\milestones\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\roadmaps\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\certifications\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\curriculum\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\datasets\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\exams\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\exercises\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\knowledge\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\lessons\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\prompts\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\reports\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\research\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\sandbox\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\simulations\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\students\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\academy\\transcripts\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tests\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tools\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tools\\archive\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tools\\cleanup\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tools\\generators\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tools\\installers\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "tools\\migrations\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\architecture\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\decisions\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\milestones\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\sprints\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "engineering\\standards\\README.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\version.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\core\\version.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\kernel\\registry.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\registry.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\cli\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\kernel\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\tests\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\governance\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\metrics\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\models\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\reporting\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\agents\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\memory\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\models\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\orchestration\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\providers\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\reasoning\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\tools\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\academy\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\ai\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\builders\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\bundles\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\cli\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\core\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\dashboard\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\documentation\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\engine\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\engines\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\knowledge\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\lab\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\metrics\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\models\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\plugins\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\programs\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\releases\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\reports\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\sales\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\services\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\standards\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\templates\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\utils\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\verification\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\engines\\repository\\__init__.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\core\\context.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\core\\filesystem.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\engines\\repository\\manifest.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\models.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\metrics\\models.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "src\\genesis\\engines\\repository\\models.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\ai\\manifest.yaml",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\builders\\manifest.yaml",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\reports\\manifest.yaml",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\sales\\manifest.yaml",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\ai\\plugin.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\builders\\plugin.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\reports\\plugin.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "plugins\\sales\\plugin.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\plugin.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\architecture\\system-architecture.md",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\reasoning\\evaluator.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\scheduler.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\engineering\\governance\\doctor.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\plugins\\discovery\\configuration.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\orchestration\\pipeline.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\memory\\repository.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  },
+  {
+    "item": "bootstrap\\ai\\reasoning\\planner.py",
+    "risk": "MEDIUM",
+    "reason": "Duplicate requires manual review before migration."
+  }
+]

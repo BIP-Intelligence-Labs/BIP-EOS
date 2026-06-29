@@ -1,0 +1,807 @@
+[
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\ai",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\ai",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\ai",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\ai",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\ai",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\ai",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\ai",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tools\\archive",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\archive",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\discovery",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\docs",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\docs",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\engineering",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\curriculum\\core\\engineering",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\engineering",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\engineering",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\plugins",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\plugins",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\reports",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\reports",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\reports",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\reports",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\reports",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\reports",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\reports",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\reports",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\templates",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\templates",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\cli\\templates",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\templates",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\templates",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\templates",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\tests",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\tests",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tests",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\tests",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tools",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\tools",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\academy",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\academy",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\adr",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\adr",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\builders",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\builders",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\builders",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\builders",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\cli",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\cli",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\cli",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\cli",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\core",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\curriculum\\core",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\core",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\curriculum\\core",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bip\\sales",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\sales",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\sales",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\sales",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\architecture",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\architecture",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\architecture",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\architecture",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\decisions",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\decisions",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\decisions",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\decisions",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\governance",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\governance",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\milestones",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\milestones",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\standards",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\standards",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\knowledge",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\knowledge",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\metrics",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\metrics",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\models",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\models",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\models",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\models",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\prompts",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\prompts",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\ai\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\builders\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\reports\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\sales\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\cli\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\architecture\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\decisions\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\governance\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\milestones\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\roadmaps\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\certifications\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\curriculum\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\datasets\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\exams\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\exercises\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\knowledge\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\lessons\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\prompts\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\reports\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\research\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\sandbox\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\simulations\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\students\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\transcripts\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tests\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tools\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tools\\archive\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tools\\cleanup\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tools\\generators\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tools\\installers\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\tools\\migrations\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\architecture\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\decisions\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\milestones\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\sprints\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\engineering\\standards\\README.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\version.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\version.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\core\\version.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\version.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\kernel\\registry.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\registry.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\registry.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\registry.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\cli\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\kernel\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\tests\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\governance\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\metrics\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\models\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\reporting\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\agents\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\memory\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\models\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\orchestration\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\providers\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\reasoning\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\tools\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\academy\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\ai\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\builders\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\bundles\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\cli\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\core\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\dashboard\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\documentation\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\engine\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\engines\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\knowledge\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\lab\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\metrics\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\models\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\plugins\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\programs\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\releases\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\reports\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\sales\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\services\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\standards\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\templates\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\utils\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\verification\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\engines\\repository\\__init__.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\core\\context.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\memory\\context.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\core\\filesystem.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\tools\\filesystem.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\engines\\repository\\manifest.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\core\\manifest.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\models.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\models.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\metrics\\models.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\models.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\engines\\repository\\models.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\models.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\ai\\manifest.yaml",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\manifest.yaml",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\builders\\manifest.yaml",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\manifest.yaml",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\reports\\manifest.yaml",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\manifest.yaml",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\sales\\manifest.yaml",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\manifest.yaml",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\ai\\plugin.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\builders\\plugin.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\reports\\plugin.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\sales\\plugin.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\plugin.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\plugin.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\architecture\\system-architecture.md",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\architecture\\system-architecture.md",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\reasoning\\evaluator.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\evaluator.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\scheduler.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\scheduler.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\engineering\\governance\\doctor.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\cli\\doctor.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\configuration.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\kernel\\configuration.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\orchestration\\pipeline.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\pipeline.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\memory\\repository.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\plugins\\discovery\\repository.py",
+    "action": "REVIEW"
+  },
+  {
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\reasoning\\planner.py",
+    "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\ai\\agents\\planner.py",
+    "action": "REVIEW"
+  }
+]

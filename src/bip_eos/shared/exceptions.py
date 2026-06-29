@@ -1,0 +1,2 @@
+class BIPEOSError(Exception):
+    pass

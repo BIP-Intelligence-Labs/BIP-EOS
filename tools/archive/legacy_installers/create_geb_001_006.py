@@ -3,7 +3,7 @@
 REP-004
 create_geb_001_006.py
 
-Installs the Genesis Repository Models.
+Installs the BIP EOS Repository Models.
 
 Run from the Genesis repository root:
 

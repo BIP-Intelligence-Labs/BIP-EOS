@@ -1,0 +1,1073 @@
+[
+  {
+    "item": "ai",
+    "source": "bip\\ai",
+    "target": "ai",
+    "source_role": "Unclassified",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "ai",
+    "source": "bootstrap\\ai",
+    "target": "ai",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "ai",
+    "source": "plugins\\ai",
+    "target": "ai",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "ai",
+    "source": "src\\genesis\\ai",
+    "target": "ai",
+    "source_role": "Production Source",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "archive",
+    "source": "tools\\archive",
+    "target": "archive",
+    "source_role": "Utilities",
+    "target_role": "Research/Lab",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "discovery",
+    "source": "bootstrap\\plugins\\discovery",
+    "target": "discovery",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "docs",
+    "source": "bip\\docs",
+    "target": "docs",
+    "source_role": "Unclassified",
+    "target_role": "Documentation",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "docs",
+    "source": "bootstrap\\docs",
+    "target": "docs",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Documentation",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "engineering",
+    "source": "bootstrap\\engineering",
+    "target": "engineering",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Governance",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "engineering",
+    "source": "docs\\engineering",
+    "target": "engineering",
+    "source_role": "Documentation",
+    "target_role": "Governance",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "engineering",
+    "source": "bootstrap\\academy\\curriculum\\core\\engineering",
+    "target": "engineering",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Governance",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "plugins",
+    "source": "bip\\plugins",
+    "target": "plugins",
+    "source_role": "Unclassified",
+    "target_role": "Plugin Runtime",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "plugins",
+    "source": "bootstrap\\plugins",
+    "target": "plugins",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Plugin Runtime",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "plugins",
+    "source": "src\\genesis\\plugins",
+    "target": "plugins",
+    "source_role": "Production Source",
+    "target_role": "Plugin Runtime",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "reports",
+    "source": "bip\\reports",
+    "target": "reports",
+    "source_role": "Unclassified",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "reports",
+    "source": "plugins\\reports",
+    "target": "reports",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "reports",
+    "source": "src\\genesis\\reports",
+    "target": "reports",
+    "source_role": "Production Source",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "reports",
+    "source": "bootstrap\\academy\\reports",
+    "target": "reports",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "templates",
+    "source": "bootstrap\\templates",
+    "target": "templates",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "templates",
+    "source": "src\\genesis\\templates",
+    "target": "templates",
+    "source_role": "Production Source",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "templates",
+    "source": "bootstrap\\cli\\templates",
+    "target": "templates",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "tests",
+    "source": "bootstrap\\tests",
+    "target": "tests",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Tests",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "tests",
+    "source": "bootstrap\\plugins\\discovery\\tests",
+    "target": "tests",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Tests",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "tools",
+    "source": "bootstrap\\ai\\tools",
+    "target": "tools",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Utilities",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "academy",
+    "source": "bootstrap\\academy",
+    "target": "bip\\academy",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "academy",
+    "source": "plugins\\academy",
+    "target": "bip\\academy",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "academy",
+    "source": "src\\genesis\\academy",
+    "target": "bip\\academy",
+    "source_role": "Production Source",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "adr",
+    "source": "docs\\adr",
+    "target": "bip\\adr",
+    "source_role": "Documentation",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "builders",
+    "source": "plugins\\builders",
+    "target": "bip\\builders",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "builders",
+    "source": "src\\genesis\\builders",
+    "target": "bip\\builders",
+    "source_role": "Production Source",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "cli",
+    "source": "bootstrap\\cli",
+    "target": "bip\\cli",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "cli",
+    "source": "src\\genesis\\cli",
+    "target": "bip\\cli",
+    "source_role": "Production Source",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "core",
+    "source": "src\\genesis\\core",
+    "target": "bip\\core",
+    "source_role": "Production Source",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "core",
+    "source": "bootstrap\\academy\\curriculum\\core",
+    "target": "bip\\core",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "sales",
+    "source": "plugins\\sales",
+    "target": "bip\\sales",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "sales",
+    "source": "src\\genesis\\sales",
+    "target": "bip\\sales",
+    "source_role": "Production Source",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "architecture",
+    "source": "engineering\\architecture",
+    "target": "docs\\architecture",
+    "source_role": "Governance",
+    "target_role": "Documentation",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "architecture",
+    "source": "bootstrap\\engineering\\architecture",
+    "target": "docs\\architecture",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Documentation",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "decisions",
+    "source": "engineering\\decisions",
+    "target": "docs\\decisions",
+    "source_role": "Governance",
+    "target_role": "Documentation",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "decisions",
+    "source": "bootstrap\\engineering\\decisions",
+    "target": "docs\\decisions",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Documentation",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "governance",
+    "source": "bootstrap\\engineering\\governance",
+    "target": "docs\\governance",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Documentation",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "milestones",
+    "source": "bootstrap\\engineering\\milestones",
+    "target": "engineering\\milestones",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Governance",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "standards",
+    "source": "src\\genesis\\standards",
+    "target": "engineering\\standards",
+    "source_role": "Production Source",
+    "target_role": "Governance",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "knowledge",
+    "source": "bootstrap\\academy\\knowledge",
+    "target": "src\\genesis\\knowledge",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "metrics",
+    "source": "bootstrap\\engineering\\metrics",
+    "target": "src\\genesis\\metrics",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "models",
+    "source": "bootstrap\\ai\\models",
+    "target": "src\\genesis\\models",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "models",
+    "source": "bootstrap\\engineering\\models",
+    "target": "src\\genesis\\models",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "docs\\README.md",
+    "target": "README.md",
+    "source_role": "Documentation",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "engineering\\README.md",
+    "target": "README.md",
+    "source_role": "Governance",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "tests\\README.md",
+    "target": "README.md",
+    "source_role": "Tests",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "tools\\README.md",
+    "target": "README.md",
+    "source_role": "Utilities",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "tools\\archive\\README.md",
+    "target": "README.md",
+    "source_role": "Utilities",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "tools\\cleanup\\README.md",
+    "target": "README.md",
+    "source_role": "Utilities",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "tools\\generators\\README.md",
+    "target": "README.md",
+    "source_role": "Utilities",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "tools\\installers\\README.md",
+    "target": "README.md",
+    "source_role": "Utilities",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "tools\\migrations\\README.md",
+    "target": "README.md",
+    "source_role": "Utilities",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "plugins\\academy\\README.md",
+    "target": "README.md",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "plugins\\ai\\README.md",
+    "target": "README.md",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "plugins\\builders\\README.md",
+    "target": "README.md",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "plugins\\reports\\README.md",
+    "target": "README.md",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "plugins\\sales\\README.md",
+    "target": "README.md",
+    "source_role": "Plugin Runtime",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "engineering\\architecture\\README.md",
+    "target": "README.md",
+    "source_role": "Governance",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "engineering\\decisions\\README.md",
+    "target": "README.md",
+    "source_role": "Governance",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "engineering\\milestones\\README.md",
+    "target": "README.md",
+    "source_role": "Governance",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "engineering\\sprints\\README.md",
+    "target": "README.md",
+    "source_role": "Governance",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "engineering\\standards\\README.md",
+    "target": "README.md",
+    "source_role": "Governance",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\ai\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\cli\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\engineering\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\plugins\\discovery\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\engineering\\architecture\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\engineering\\decisions\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\engineering\\governance\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\engineering\\milestones\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\engineering\\roadmaps\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\certifications\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\curriculum\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\datasets\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\exams\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\exercises\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\knowledge\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\lessons\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\prompts\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\reports\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\research\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\sandbox\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\simulations\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\students\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "README.md",
+    "source": "bootstrap\\academy\\transcripts\\README.md",
+    "target": "README.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Unclassified",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "version.py",
+    "source": "src\\genesis\\version.py",
+    "target": "bootstrap\\version.py",
+    "source_role": "Production Source",
+    "target_role": "Bootstrap Framework",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "version.py",
+    "source": "src\\genesis\\core\\version.py",
+    "target": "bootstrap\\version.py",
+    "source_role": "Production Source",
+    "target_role": "Bootstrap Framework",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "registry.py",
+    "source": "bootstrap\\academy\\registry.py",
+    "target": "src\\genesis\\registry.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "registry.py",
+    "source": "bootstrap\\kernel\\registry.py",
+    "target": "src\\genesis\\registry.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\academy\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\ai\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\cli\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\engineering\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\kernel\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\plugins\\discovery\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\plugins\\discovery\\tests\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\engineering\\governance\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\engineering\\metrics\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\engineering\\models\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\engineering\\reporting\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\ai\\agents\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\ai\\memory\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\ai\\models\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\ai\\orchestration\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\ai\\providers\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\ai\\reasoning\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "__init__.py",
+    "source": "bootstrap\\ai\\tools\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "context.py",
+    "source": "bootstrap\\ai\\memory\\context.py",
+    "target": "src\\genesis\\core\\context.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "filesystem.py",
+    "source": "bootstrap\\ai\\tools\\filesystem.py",
+    "target": "src\\genesis\\core\\filesystem.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "models.py",
+    "source": "bootstrap\\academy\\models.py",
+    "target": "src\\genesis\\engines\\repository\\models.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "models.py",
+    "source": "bootstrap\\plugins\\discovery\\models.py",
+    "target": "src\\genesis\\engines\\repository\\models.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "models.py",
+    "source": "bootstrap\\engineering\\metrics\\models.py",
+    "target": "src\\genesis\\engines\\repository\\models.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Production Source",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "plugin.py",
+    "source": "bootstrap\\plugins\\discovery\\plugin.py",
+    "target": "plugins\\academy\\plugin.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Plugin Runtime",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  },
+  {
+    "item": "system-architecture.md",
+    "source": "bootstrap\\engineering\\architecture\\system-architecture.md",
+    "target": "docs\\architecture\\system-architecture.md",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Documentation",
+    "action": "REJECT",
+    "reason": "Cross-role migration requires manual approval."
+  }
+]

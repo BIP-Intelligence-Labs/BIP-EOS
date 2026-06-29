@@ -1,0 +1,14 @@
+version: 1.0
+
+root: engineering
+
+include:
+  - foundation
+  - philosophy
+  - platform
+  - metamodel
+  - domain
+  - solution
+  - compiler
+  - standards
+  - adr

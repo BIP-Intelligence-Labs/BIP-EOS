@@ -86,7 +86,7 @@ with gitignore.open("a", encoding="utf-8") as f:
 # Summary
 # ------------------------------------------------------
 print("=" * 60)
-print("Genesis Repository Cleanup Complete")
+print("BIP EOS Repository Cleanup Complete")
 print("=" * 60)
 
 print(f"\nRemoved : {len(removed)}")

@@ -1,0 +1,507 @@
+{
+  "ai": {
+    "category": "folders",
+    "winner": "plugins\\ai",
+    "candidates": [
+      "plugins\\ai",
+      "bootstrap\\ai",
+      "bip\\ai",
+      "ai",
+      "src\\genesis\\ai"
+    ],
+    "confidence": "HIGH"
+  },
+  "archive": {
+    "category": "folders",
+    "winner": "archive",
+    "candidates": [
+      "archive",
+      "tools\\archive"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "discovery": {
+    "category": "folders",
+    "winner": "bootstrap\\plugins\\discovery",
+    "candidates": [
+      "bootstrap\\plugins\\discovery",
+      "discovery"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "docs": {
+    "category": "folders",
+    "winner": "docs",
+    "candidates": [
+      "docs",
+      "bootstrap\\docs",
+      "bip\\docs"
+    ],
+    "confidence": "HIGH"
+  },
+  "engineering": {
+    "category": "folders",
+    "winner": "docs\\engineering",
+    "candidates": [
+      "docs\\engineering",
+      "bootstrap\\engineering",
+      "bootstrap\\academy\\curriculum\\core\\engineering",
+      "engineering"
+    ],
+    "confidence": "HIGH"
+  },
+  "plugins": {
+    "category": "folders",
+    "winner": "plugins",
+    "candidates": [
+      "plugins",
+      "bootstrap\\plugins",
+      "bip\\plugins",
+      "src\\genesis\\plugins"
+    ],
+    "confidence": "HIGH"
+  },
+  "reports": {
+    "category": "folders",
+    "winner": "plugins\\reports",
+    "candidates": [
+      "plugins\\reports",
+      "bootstrap\\academy\\reports",
+      "bip\\reports",
+      "reports",
+      "src\\genesis\\reports"
+    ],
+    "confidence": "HIGH"
+  },
+  "templates": {
+    "category": "folders",
+    "winner": "templates",
+    "candidates": [
+      "templates",
+      "bootstrap\\templates",
+      "bootstrap\\cli\\templates",
+      "src\\genesis\\templates"
+    ],
+    "confidence": "HIGH"
+  },
+  "tests": {
+    "category": "folders",
+    "winner": "bootstrap\\tests",
+    "candidates": [
+      "bootstrap\\tests",
+      "bootstrap\\plugins\\discovery\\tests",
+      "tests"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "tools": {
+    "category": "folders",
+    "winner": "bootstrap\\ai\\tools",
+    "candidates": [
+      "bootstrap\\ai\\tools",
+      "tools"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "academy": {
+    "category": "folders",
+    "winner": "plugins\\academy",
+    "candidates": [
+      "plugins\\academy",
+      "bootstrap\\academy",
+      "bip\\academy",
+      "src\\genesis\\academy"
+    ],
+    "confidence": "HIGH"
+  },
+  "adr": {
+    "category": "folders",
+    "winner": "docs\\adr",
+    "candidates": [
+      "docs\\adr",
+      "bip\\adr"
+    ],
+    "confidence": "HIGH"
+  },
+  "builders": {
+    "category": "folders",
+    "winner": "plugins\\builders",
+    "candidates": [
+      "plugins\\builders",
+      "bip\\builders",
+      "src\\genesis\\builders"
+    ],
+    "confidence": "HIGH"
+  },
+  "cli": {
+    "category": "folders",
+    "winner": "bootstrap\\cli",
+    "candidates": [
+      "bootstrap\\cli",
+      "bip\\cli",
+      "src\\genesis\\cli"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "core": {
+    "category": "folders",
+    "winner": "bootstrap\\academy\\curriculum\\core",
+    "candidates": [
+      "bootstrap\\academy\\curriculum\\core",
+      "bip\\core",
+      "src\\genesis\\core"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "sales": {
+    "category": "folders",
+    "winner": "plugins\\sales",
+    "candidates": [
+      "plugins\\sales",
+      "bip\\sales",
+      "src\\genesis\\sales"
+    ],
+    "confidence": "HIGH"
+  },
+  "architecture": {
+    "category": "folders",
+    "winner": "docs\\architecture",
+    "candidates": [
+      "docs\\architecture",
+      "bootstrap\\engineering\\architecture",
+      "engineering\\architecture"
+    ],
+    "confidence": "HIGH"
+  },
+  "decisions": {
+    "category": "folders",
+    "winner": "docs\\decisions",
+    "candidates": [
+      "docs\\decisions",
+      "bootstrap\\engineering\\decisions",
+      "engineering\\decisions"
+    ],
+    "confidence": "HIGH"
+  },
+  "governance": {
+    "category": "folders",
+    "winner": "docs\\governance",
+    "candidates": [
+      "docs\\governance",
+      "bootstrap\\engineering\\governance"
+    ],
+    "confidence": "HIGH"
+  },
+  "milestones": {
+    "category": "folders",
+    "winner": "bootstrap\\engineering\\milestones",
+    "candidates": [
+      "bootstrap\\engineering\\milestones",
+      "engineering\\milestones"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "standards": {
+    "category": "folders",
+    "winner": "engineering\\standards",
+    "candidates": [
+      "engineering\\standards",
+      "src\\genesis\\standards"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "knowledge": {
+    "category": "folders",
+    "winner": "bootstrap\\academy\\knowledge",
+    "candidates": [
+      "bootstrap\\academy\\knowledge",
+      "src\\genesis\\knowledge"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "metrics": {
+    "category": "folders",
+    "winner": "bootstrap\\engineering\\metrics",
+    "candidates": [
+      "bootstrap\\engineering\\metrics",
+      "src\\genesis\\metrics"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "models": {
+    "category": "folders",
+    "winner": "bootstrap\\ai\\models",
+    "candidates": [
+      "bootstrap\\ai\\models",
+      "bootstrap\\engineering\\models",
+      "src\\genesis\\models"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "prompts": {
+    "category": "folders",
+    "winner": "bootstrap\\academy\\prompts",
+    "candidates": [
+      "bootstrap\\academy\\prompts",
+      "bootstrap\\ai\\prompts"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "README.md": {
+    "category": "files",
+    "winner": "docs\\README.md",
+    "candidates": [
+      "docs\\README.md",
+      "plugins\\academy\\README.md",
+      "plugins\\ai\\README.md",
+      "plugins\\builders\\README.md",
+      "plugins\\reports\\README.md",
+      "plugins\\sales\\README.md",
+      "bootstrap\\academy\\README.md",
+      "bootstrap\\ai\\README.md",
+      "bootstrap\\cli\\README.md",
+      "bootstrap\\engineering\\README.md",
+      "bootstrap\\plugins\\discovery\\README.md",
+      "bootstrap\\engineering\\architecture\\README.md",
+      "bootstrap\\engineering\\decisions\\README.md",
+      "bootstrap\\engineering\\governance\\README.md",
+      "bootstrap\\engineering\\milestones\\README.md",
+      "bootstrap\\engineering\\roadmaps\\README.md",
+      "bootstrap\\academy\\certifications\\README.md",
+      "bootstrap\\academy\\curriculum\\README.md",
+      "bootstrap\\academy\\datasets\\README.md",
+      "bootstrap\\academy\\exams\\README.md",
+      "bootstrap\\academy\\exercises\\README.md",
+      "bootstrap\\academy\\knowledge\\README.md",
+      "bootstrap\\academy\\lessons\\README.md",
+      "bootstrap\\academy\\prompts\\README.md",
+      "bootstrap\\academy\\reports\\README.md",
+      "bootstrap\\academy\\research\\README.md",
+      "bootstrap\\academy\\sandbox\\README.md",
+      "bootstrap\\academy\\simulations\\README.md",
+      "bootstrap\\academy\\students\\README.md",
+      "bootstrap\\academy\\transcripts\\README.md",
+      "README.md",
+      "engineering\\README.md",
+      "tests\\README.md",
+      "tools\\README.md",
+      "tools\\archive\\README.md",
+      "tools\\cleanup\\README.md",
+      "tools\\generators\\README.md",
+      "tools\\installers\\README.md",
+      "tools\\migrations\\README.md",
+      "engineering\\architecture\\README.md",
+      "engineering\\decisions\\README.md",
+      "engineering\\milestones\\README.md",
+      "engineering\\sprints\\README.md",
+      "engineering\\standards\\README.md"
+    ],
+    "confidence": "HIGH"
+  },
+  "version.py": {
+    "category": "files",
+    "winner": "bootstrap\\version.py",
+    "candidates": [
+      "bootstrap\\version.py",
+      "src\\genesis\\version.py",
+      "src\\genesis\\core\\version.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "registry.py": {
+    "category": "files",
+    "winner": "bootstrap\\academy\\registry.py",
+    "candidates": [
+      "bootstrap\\academy\\registry.py",
+      "bootstrap\\kernel\\registry.py",
+      "src\\genesis\\registry.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "__init__.py": {
+    "category": "files",
+    "winner": "bootstrap\\academy\\__init__.py",
+    "candidates": [
+      "bootstrap\\academy\\__init__.py",
+      "bootstrap\\ai\\__init__.py",
+      "bootstrap\\cli\\__init__.py",
+      "bootstrap\\engineering\\__init__.py",
+      "bootstrap\\kernel\\__init__.py",
+      "bootstrap\\plugins\\discovery\\__init__.py",
+      "bootstrap\\plugins\\discovery\\tests\\__init__.py",
+      "bootstrap\\engineering\\governance\\__init__.py",
+      "bootstrap\\engineering\\metrics\\__init__.py",
+      "bootstrap\\engineering\\models\\__init__.py",
+      "bootstrap\\engineering\\reporting\\__init__.py",
+      "bootstrap\\ai\\agents\\__init__.py",
+      "bootstrap\\ai\\memory\\__init__.py",
+      "bootstrap\\ai\\models\\__init__.py",
+      "bootstrap\\ai\\orchestration\\__init__.py",
+      "bootstrap\\ai\\providers\\__init__.py",
+      "bootstrap\\ai\\reasoning\\__init__.py",
+      "bootstrap\\ai\\tools\\__init__.py",
+      "src\\genesis\\__init__.py",
+      "src\\genesis\\academy\\__init__.py",
+      "src\\genesis\\ai\\__init__.py",
+      "src\\genesis\\builders\\__init__.py",
+      "src\\genesis\\bundles\\__init__.py",
+      "src\\genesis\\cli\\__init__.py",
+      "src\\genesis\\core\\__init__.py",
+      "src\\genesis\\dashboard\\__init__.py",
+      "src\\genesis\\documentation\\__init__.py",
+      "src\\genesis\\engine\\__init__.py",
+      "src\\genesis\\engines\\__init__.py",
+      "src\\genesis\\knowledge\\__init__.py",
+      "src\\genesis\\lab\\__init__.py",
+      "src\\genesis\\metrics\\__init__.py",
+      "src\\genesis\\models\\__init__.py",
+      "src\\genesis\\plugins\\__init__.py",
+      "src\\genesis\\programs\\__init__.py",
+      "src\\genesis\\releases\\__init__.py",
+      "src\\genesis\\reports\\__init__.py",
+      "src\\genesis\\sales\\__init__.py",
+      "src\\genesis\\services\\__init__.py",
+      "src\\genesis\\standards\\__init__.py",
+      "src\\genesis\\templates\\__init__.py",
+      "src\\genesis\\utils\\__init__.py",
+      "src\\genesis\\verification\\__init__.py",
+      "src\\genesis\\engines\\repository\\__init__.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "context.py": {
+    "category": "files",
+    "winner": "bootstrap\\ai\\memory\\context.py",
+    "candidates": [
+      "bootstrap\\ai\\memory\\context.py",
+      "src\\genesis\\core\\context.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "filesystem.py": {
+    "category": "files",
+    "winner": "bootstrap\\ai\\tools\\filesystem.py",
+    "candidates": [
+      "bootstrap\\ai\\tools\\filesystem.py",
+      "src\\genesis\\core\\filesystem.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "manifest.py": {
+    "category": "files",
+    "winner": "src\\genesis\\core\\manifest.py",
+    "candidates": [
+      "src\\genesis\\core\\manifest.py",
+      "src\\genesis\\engines\\repository\\manifest.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "models.py": {
+    "category": "files",
+    "winner": "bootstrap\\academy\\models.py",
+    "candidates": [
+      "bootstrap\\academy\\models.py",
+      "bootstrap\\plugins\\discovery\\models.py",
+      "bootstrap\\engineering\\metrics\\models.py",
+      "src\\genesis\\engines\\repository\\models.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "manifest.yaml": {
+    "category": "files",
+    "winner": "plugins\\academy\\manifest.yaml",
+    "candidates": [
+      "plugins\\academy\\manifest.yaml",
+      "plugins\\ai\\manifest.yaml",
+      "plugins\\builders\\manifest.yaml",
+      "plugins\\reports\\manifest.yaml",
+      "plugins\\sales\\manifest.yaml"
+    ],
+    "confidence": "HIGH"
+  },
+  "plugin.py": {
+    "category": "files",
+    "winner": "plugins\\academy\\plugin.py",
+    "candidates": [
+      "plugins\\academy\\plugin.py",
+      "plugins\\ai\\plugin.py",
+      "plugins\\builders\\plugin.py",
+      "plugins\\reports\\plugin.py",
+      "plugins\\sales\\plugin.py",
+      "bootstrap\\plugins\\discovery\\plugin.py"
+    ],
+    "confidence": "HIGH"
+  },
+  "system-architecture.md": {
+    "category": "files",
+    "winner": "docs\\architecture\\system-architecture.md",
+    "candidates": [
+      "docs\\architecture\\system-architecture.md",
+      "bootstrap\\engineering\\architecture\\system-architecture.md"
+    ],
+    "confidence": "HIGH"
+  },
+  "evaluator.py": {
+    "category": "files",
+    "winner": "bootstrap\\academy\\evaluator.py",
+    "candidates": [
+      "bootstrap\\academy\\evaluator.py",
+      "bootstrap\\ai\\reasoning\\evaluator.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "scheduler.py": {
+    "category": "files",
+    "winner": "bootstrap\\academy\\scheduler.py",
+    "candidates": [
+      "bootstrap\\academy\\scheduler.py",
+      "bootstrap\\plugins\\discovery\\scheduler.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "doctor.py": {
+    "category": "files",
+    "winner": "bootstrap\\cli\\doctor.py",
+    "candidates": [
+      "bootstrap\\cli\\doctor.py",
+      "bootstrap\\engineering\\governance\\doctor.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "configuration.py": {
+    "category": "files",
+    "winner": "bootstrap\\kernel\\configuration.py",
+    "candidates": [
+      "bootstrap\\kernel\\configuration.py",
+      "bootstrap\\plugins\\discovery\\configuration.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "pipeline.py": {
+    "category": "files",
+    "winner": "bootstrap\\plugins\\discovery\\pipeline.py",
+    "candidates": [
+      "bootstrap\\plugins\\discovery\\pipeline.py",
+      "bootstrap\\ai\\orchestration\\pipeline.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "repository.py": {
+    "category": "files",
+    "winner": "bootstrap\\plugins\\discovery\\repository.py",
+    "candidates": [
+      "bootstrap\\plugins\\discovery\\repository.py",
+      "bootstrap\\ai\\memory\\repository.py"
+    ],
+    "confidence": "MEDIUM"
+  },
+  "planner.py": {
+    "category": "files",
+    "winner": "bootstrap\\ai\\agents\\planner.py",
+    "candidates": [
+      "bootstrap\\ai\\agents\\planner.py",
+      "bootstrap\\ai\\reasoning\\planner.py"
+    ],
+    "confidence": "MEDIUM"
+  }
+}

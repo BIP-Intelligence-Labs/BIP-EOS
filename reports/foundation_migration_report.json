@@ -1,0 +1,11 @@
+{
+  "phase": "Foundation",
+  "generated": "2026-06-28T21:02:17.682416",
+  "mode": "DRY_RUN",
+  "items": [
+    {
+      "source": "src\\genesis\\core\\repository\\repository_engine.py",
+      "target": "src\\bip_eos\\core\\repository\\repository_engine.py"
+    }
+  ]
+}

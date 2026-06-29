@@ -1,0 +1,338 @@
+[
+  {
+    "item": "prompts",
+    "source": "bootstrap\\ai\\prompts",
+    "target": "bootstrap\\academy\\prompts",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Bootstrap Framework",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\academy\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\ai\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\builders\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\bundles\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\cli\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\core\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\dashboard\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\documentation\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\engine\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\engines\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\knowledge\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\lab\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\metrics\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\models\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\plugins\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\programs\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\releases\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\reports\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\sales\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\services\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\standards\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\templates\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\utils\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\verification\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "__init__.py",
+    "source": "src\\genesis\\engines\\repository\\__init__.py",
+    "target": "src\\genesis\\__init__.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "manifest.py",
+    "source": "src\\genesis\\engines\\repository\\manifest.py",
+    "target": "src\\genesis\\core\\manifest.py",
+    "source_role": "Production Source",
+    "target_role": "Production Source",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "manifest.yaml",
+    "source": "plugins\\ai\\manifest.yaml",
+    "target": "plugins\\academy\\manifest.yaml",
+    "source_role": "Plugin Runtime",
+    "target_role": "Plugin Runtime",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "manifest.yaml",
+    "source": "plugins\\builders\\manifest.yaml",
+    "target": "plugins\\academy\\manifest.yaml",
+    "source_role": "Plugin Runtime",
+    "target_role": "Plugin Runtime",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "manifest.yaml",
+    "source": "plugins\\reports\\manifest.yaml",
+    "target": "plugins\\academy\\manifest.yaml",
+    "source_role": "Plugin Runtime",
+    "target_role": "Plugin Runtime",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "manifest.yaml",
+    "source": "plugins\\sales\\manifest.yaml",
+    "target": "plugins\\academy\\manifest.yaml",
+    "source_role": "Plugin Runtime",
+    "target_role": "Plugin Runtime",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "plugin.py",
+    "source": "plugins\\ai\\plugin.py",
+    "target": "plugins\\academy\\plugin.py",
+    "source_role": "Plugin Runtime",
+    "target_role": "Plugin Runtime",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "plugin.py",
+    "source": "plugins\\builders\\plugin.py",
+    "target": "plugins\\academy\\plugin.py",
+    "source_role": "Plugin Runtime",
+    "target_role": "Plugin Runtime",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "plugin.py",
+    "source": "plugins\\reports\\plugin.py",
+    "target": "plugins\\academy\\plugin.py",
+    "source_role": "Plugin Runtime",
+    "target_role": "Plugin Runtime",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "plugin.py",
+    "source": "plugins\\sales\\plugin.py",
+    "target": "plugins\\academy\\plugin.py",
+    "source_role": "Plugin Runtime",
+    "target_role": "Plugin Runtime",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "evaluator.py",
+    "source": "bootstrap\\ai\\reasoning\\evaluator.py",
+    "target": "bootstrap\\academy\\evaluator.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Bootstrap Framework",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "scheduler.py",
+    "source": "bootstrap\\plugins\\discovery\\scheduler.py",
+    "target": "bootstrap\\academy\\scheduler.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Bootstrap Framework",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "doctor.py",
+    "source": "bootstrap\\engineering\\governance\\doctor.py",
+    "target": "bootstrap\\cli\\doctor.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Bootstrap Framework",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "configuration.py",
+    "source": "bootstrap\\plugins\\discovery\\configuration.py",
+    "target": "bootstrap\\kernel\\configuration.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Bootstrap Framework",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "pipeline.py",
+    "source": "bootstrap\\ai\\orchestration\\pipeline.py",
+    "target": "bootstrap\\plugins\\discovery\\pipeline.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Bootstrap Framework",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "repository.py",
+    "source": "bootstrap\\ai\\memory\\repository.py",
+    "target": "bootstrap\\plugins\\discovery\\repository.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Bootstrap Framework",
+    "action": "MERGE_REVIEW"
+  },
+  {
+    "item": "planner.py",
+    "source": "bootstrap\\ai\\reasoning\\planner.py",
+    "target": "bootstrap\\ai\\agents\\planner.py",
+    "source_role": "Bootstrap Framework",
+    "target_role": "Bootstrap Framework",
+    "action": "MERGE_REVIEW"
+  }
+]

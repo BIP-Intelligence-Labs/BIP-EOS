@@ -48,7 +48,7 @@ README_CONTENT = {
 }
 
 print("=" * 60)
-print("Genesis Repository Structure")
+print("BIP EOS Repository Structure")
 print("=" * 60)
 
 for directory in DIRECTORIES:

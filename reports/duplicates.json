@@ -1,0 +1,296 @@
+{
+  "folders": {
+    "ai": [
+      "ai",
+      "bip\\ai",
+      "bootstrap\\ai",
+      "plugins\\ai",
+      "src\\genesis\\ai"
+    ],
+    "archive": [
+      "archive",
+      "tools\\archive"
+    ],
+    "discovery": [
+      "discovery",
+      "bootstrap\\plugins\\discovery"
+    ],
+    "docs": [
+      "docs",
+      "bip\\docs",
+      "bootstrap\\docs"
+    ],
+    "engineering": [
+      "engineering",
+      "bootstrap\\engineering",
+      "docs\\engineering",
+      "bootstrap\\academy\\curriculum\\core\\engineering"
+    ],
+    "plugins": [
+      "plugins",
+      "bip\\plugins",
+      "bootstrap\\plugins",
+      "src\\genesis\\plugins"
+    ],
+    "reports": [
+      "reports",
+      "bip\\reports",
+      "plugins\\reports",
+      "src\\genesis\\reports",
+      "bootstrap\\academy\\reports"
+    ],
+    "templates": [
+      "templates",
+      "bootstrap\\templates",
+      "src\\genesis\\templates",
+      "bootstrap\\cli\\templates"
+    ],
+    "tests": [
+      "tests",
+      "bootstrap\\tests",
+      "bootstrap\\plugins\\discovery\\tests"
+    ],
+    "tools": [
+      "tools",
+      "bootstrap\\ai\\tools"
+    ],
+    "academy": [
+      "bip\\academy",
+      "bootstrap\\academy",
+      "plugins\\academy",
+      "src\\genesis\\academy"
+    ],
+    "adr": [
+      "bip\\adr",
+      "docs\\adr"
+    ],
+    "builders": [
+      "bip\\builders",
+      "plugins\\builders",
+      "src\\genesis\\builders"
+    ],
+    "cli": [
+      "bip\\cli",
+      "bootstrap\\cli",
+      "src\\genesis\\cli"
+    ],
+    "core": [
+      "bip\\core",
+      "src\\genesis\\core",
+      "bootstrap\\academy\\curriculum\\core"
+    ],
+    "sales": [
+      "bip\\sales",
+      "plugins\\sales",
+      "src\\genesis\\sales"
+    ],
+    "architecture": [
+      "docs\\architecture",
+      "engineering\\architecture",
+      "bootstrap\\engineering\\architecture"
+    ],
+    "decisions": [
+      "docs\\decisions",
+      "engineering\\decisions",
+      "bootstrap\\engineering\\decisions"
+    ],
+    "governance": [
+      "docs\\governance",
+      "bootstrap\\engineering\\governance"
+    ],
+    "milestones": [
+      "engineering\\milestones",
+      "bootstrap\\engineering\\milestones"
+    ],
+    "standards": [
+      "engineering\\standards",
+      "src\\genesis\\standards"
+    ],
+    "knowledge": [
+      "src\\genesis\\knowledge",
+      "bootstrap\\academy\\knowledge"
+    ],
+    "metrics": [
+      "src\\genesis\\metrics",
+      "bootstrap\\engineering\\metrics"
+    ],
+    "models": [
+      "src\\genesis\\models",
+      "bootstrap\\ai\\models",
+      "bootstrap\\engineering\\models"
+    ],
+    "prompts": [
+      "bootstrap\\academy\\prompts",
+      "bootstrap\\ai\\prompts"
+    ]
+  },
+  "files": {
+    "README.md": [
+      "README.md",
+      "docs\\README.md",
+      "engineering\\README.md",
+      "tests\\README.md",
+      "tools\\README.md",
+      "tools\\archive\\README.md",
+      "tools\\cleanup\\README.md",
+      "tools\\generators\\README.md",
+      "tools\\installers\\README.md",
+      "tools\\migrations\\README.md",
+      "plugins\\academy\\README.md",
+      "plugins\\ai\\README.md",
+      "plugins\\builders\\README.md",
+      "plugins\\reports\\README.md",
+      "plugins\\sales\\README.md",
+      "engineering\\architecture\\README.md",
+      "engineering\\decisions\\README.md",
+      "engineering\\milestones\\README.md",
+      "engineering\\sprints\\README.md",
+      "engineering\\standards\\README.md",
+      "bootstrap\\academy\\README.md",
+      "bootstrap\\ai\\README.md",
+      "bootstrap\\cli\\README.md",
+      "bootstrap\\engineering\\README.md",
+      "bootstrap\\plugins\\discovery\\README.md",
+      "bootstrap\\engineering\\architecture\\README.md",
+      "bootstrap\\engineering\\decisions\\README.md",
+      "bootstrap\\engineering\\governance\\README.md",
+      "bootstrap\\engineering\\milestones\\README.md",
+      "bootstrap\\engineering\\roadmaps\\README.md",
+      "bootstrap\\academy\\certifications\\README.md",
+      "bootstrap\\academy\\curriculum\\README.md",
+      "bootstrap\\academy\\datasets\\README.md",
+      "bootstrap\\academy\\exams\\README.md",
+      "bootstrap\\academy\\exercises\\README.md",
+      "bootstrap\\academy\\knowledge\\README.md",
+      "bootstrap\\academy\\lessons\\README.md",
+      "bootstrap\\academy\\prompts\\README.md",
+      "bootstrap\\academy\\reports\\README.md",
+      "bootstrap\\academy\\research\\README.md",
+      "bootstrap\\academy\\sandbox\\README.md",
+      "bootstrap\\academy\\simulations\\README.md",
+      "bootstrap\\academy\\students\\README.md",
+      "bootstrap\\academy\\transcripts\\README.md"
+    ],
+    "version.py": [
+      "bootstrap\\version.py",
+      "src\\genesis\\version.py",
+      "src\\genesis\\core\\version.py"
+    ],
+    "registry.py": [
+      "src\\genesis\\registry.py",
+      "bootstrap\\academy\\registry.py",
+      "bootstrap\\kernel\\registry.py"
+    ],
+    "__init__.py": [
+      "src\\genesis\\__init__.py",
+      "src\\genesis\\academy\\__init__.py",
+      "src\\genesis\\ai\\__init__.py",
+      "src\\genesis\\builders\\__init__.py",
+      "src\\genesis\\bundles\\__init__.py",
+      "src\\genesis\\cli\\__init__.py",
+      "src\\genesis\\core\\__init__.py",
+      "src\\genesis\\dashboard\\__init__.py",
+      "src\\genesis\\documentation\\__init__.py",
+      "src\\genesis\\engine\\__init__.py",
+      "src\\genesis\\engines\\__init__.py",
+      "src\\genesis\\knowledge\\__init__.py",
+      "src\\genesis\\lab\\__init__.py",
+      "src\\genesis\\metrics\\__init__.py",
+      "src\\genesis\\models\\__init__.py",
+      "src\\genesis\\plugins\\__init__.py",
+      "src\\genesis\\programs\\__init__.py",
+      "src\\genesis\\releases\\__init__.py",
+      "src\\genesis\\reports\\__init__.py",
+      "src\\genesis\\sales\\__init__.py",
+      "src\\genesis\\services\\__init__.py",
+      "src\\genesis\\standards\\__init__.py",
+      "src\\genesis\\templates\\__init__.py",
+      "src\\genesis\\utils\\__init__.py",
+      "src\\genesis\\verification\\__init__.py",
+      "src\\genesis\\engines\\repository\\__init__.py",
+      "bootstrap\\academy\\__init__.py",
+      "bootstrap\\ai\\__init__.py",
+      "bootstrap\\cli\\__init__.py",
+      "bootstrap\\engineering\\__init__.py",
+      "bootstrap\\kernel\\__init__.py",
+      "bootstrap\\plugins\\discovery\\__init__.py",
+      "bootstrap\\plugins\\discovery\\tests\\__init__.py",
+      "bootstrap\\engineering\\governance\\__init__.py",
+      "bootstrap\\engineering\\metrics\\__init__.py",
+      "bootstrap\\engineering\\models\\__init__.py",
+      "bootstrap\\engineering\\reporting\\__init__.py",
+      "bootstrap\\ai\\agents\\__init__.py",
+      "bootstrap\\ai\\memory\\__init__.py",
+      "bootstrap\\ai\\models\\__init__.py",
+      "bootstrap\\ai\\orchestration\\__init__.py",
+      "bootstrap\\ai\\providers\\__init__.py",
+      "bootstrap\\ai\\reasoning\\__init__.py",
+      "bootstrap\\ai\\tools\\__init__.py"
+    ],
+    "context.py": [
+      "src\\genesis\\core\\context.py",
+      "bootstrap\\ai\\memory\\context.py"
+    ],
+    "filesystem.py": [
+      "src\\genesis\\core\\filesystem.py",
+      "bootstrap\\ai\\tools\\filesystem.py"
+    ],
+    "manifest.py": [
+      "src\\genesis\\core\\manifest.py",
+      "src\\genesis\\engines\\repository\\manifest.py"
+    ],
+    "models.py": [
+      "src\\genesis\\engines\\repository\\models.py",
+      "bootstrap\\academy\\models.py",
+      "bootstrap\\plugins\\discovery\\models.py",
+      "bootstrap\\engineering\\metrics\\models.py"
+    ],
+    "manifest.yaml": [
+      "plugins\\academy\\manifest.yaml",
+      "plugins\\ai\\manifest.yaml",
+      "plugins\\builders\\manifest.yaml",
+      "plugins\\reports\\manifest.yaml",
+      "plugins\\sales\\manifest.yaml"
+    ],
+    "plugin.py": [
+      "plugins\\academy\\plugin.py",
+      "plugins\\ai\\plugin.py",
+      "plugins\\builders\\plugin.py",
+      "plugins\\reports\\plugin.py",
+      "plugins\\sales\\plugin.py",
+      "bootstrap\\plugins\\discovery\\plugin.py"
+    ],
+    "system-architecture.md": [
+      "docs\\architecture\\system-architecture.md",
+      "bootstrap\\engineering\\architecture\\system-architecture.md"
+    ],
+    "evaluator.py": [
+      "bootstrap\\academy\\evaluator.py",
+      "bootstrap\\ai\\reasoning\\evaluator.py"
+    ],
+    "scheduler.py": [
+      "bootstrap\\academy\\scheduler.py",
+      "bootstrap\\plugins\\discovery\\scheduler.py"
+    ],
+    "doctor.py": [
+      "bootstrap\\cli\\doctor.py",
+      "bootstrap\\engineering\\governance\\doctor.py"
+    ],
+    "configuration.py": [
+      "bootstrap\\kernel\\configuration.py",
+      "bootstrap\\plugins\\discovery\\configuration.py"
+    ],
+    "pipeline.py": [
+      "bootstrap\\plugins\\discovery\\pipeline.py",
+      "bootstrap\\ai\\orchestration\\pipeline.py"
+    ],
+    "repository.py": [
+      "bootstrap\\plugins\\discovery\\repository.py",
+      "bootstrap\\ai\\memory\\repository.py"
+    ],
+    "planner.py": [
+      "bootstrap\\ai\\agents\\planner.py",
+      "bootstrap\\ai\\reasoning\\planner.py"
+    ]
+  }
+}

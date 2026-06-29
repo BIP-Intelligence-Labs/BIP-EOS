@@ -1,0 +1,3 @@
+PRODUCT = "BIP EOS"
+CODENAME = "Genesis"
+VERSION = "0.1.0"
