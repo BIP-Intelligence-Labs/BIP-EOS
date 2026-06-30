@@ -1,4 +1,15 @@
-# Sprint 03 — Compiler Foundation
+"""
+bootstrap_sprint_03.py
+
+Generates engineering/sprints/SPRINT_03.md
+"""
+
+from pathlib import Path
+
+ROOT = Path.cwd()
+TARGET = ROOT / "engineering" / "sprints" / "SPRINT_03.md"
+
+DOCUMENT = """# Sprint 03 — Compiler Foundation
 
 **Status:** Complete
 
@@ -72,3 +83,13 @@ The Engineering Operating System now contains the initial compiler front-end, st
 - Implement AST
 - Expand compiler diagnostics
 - Continue Bootstrap Engineering
+"""
+
+TARGET.parent.mkdir(parents=True, exist_ok=True)
+TARGET.write_text(DOCUMENT, encoding="utf-8")
+
+print("=" * 60)
+print("BIP EOS Bootstrap")
+print("=" * 60)
+print("Generated:")
+print(TARGET)
