@@ -1,0 +1,7 @@
+from dataclasses import dataclass
+from .position import Position
+
+@dataclass(slots=True)
+class Span:
+    start: Position
+    end: Position
