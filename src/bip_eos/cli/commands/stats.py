@@ -1,11 +1,11 @@
-"""Engineering Graph CLI."""
+"""Graph statistics CLI."""
 
 from bip_eos.engineering_graph.graph_engine import EngineeringGraph
 
 
 def main():
     graph = EngineeringGraph()
-    print(f"Engineering Graph: {graph.stats()}")
+    print(graph.stats())
 
 
 if __name__ == "__main__":
