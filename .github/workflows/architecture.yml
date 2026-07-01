@@ -1,0 +1,8 @@
+name: Architecture Validation
+on: [push]
+jobs:
+  architecture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Validate architecture"
