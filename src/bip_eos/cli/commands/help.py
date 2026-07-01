@@ -1,36 +1,31 @@
-#!/usr/bin/env python3
-"""
-help.py
-
-BIP EOS Help Command
-"""
-
 from __future__ import annotations
 
-from bip_eos.cli.dispatcher import Dispatcher
+from bip_eos.cli.command import Command
+from bip_eos.cli.dispatcher import CommandDispatcher
 
 
-def run(argv=None):
-    dispatcher = Dispatcher()
-    return {
-        "commands": dispatcher.commands()
-    }
+class HelpCommand(Command):
 
+    name = "help"
 
-def main():
-    print("=" * 70)
-    print("BIP EOS Help")
-    print("=" * 70)
+    description = "Show available commands."
 
-    result = run()
+    aliases = ["?"]
 
-    print("Available Commands\n")
+    def __init__(self, dispatcher: CommandDispatcher):
 
-    for command in result["commands"]:
-        print(f"  bip {command}")
+        self.dispatcher = dispatcher
 
-    print("=" * 70)
+    def execute(self, args: list[str]) -> int:
 
+        print()
 
-if __name__ == "__main__":
-    main()
+        print("Available Commands\n")
+
+        for command in self.dispatcher.commands():
+
+            print(f"{command.name:<15}{command.description}")
+
+        print()
+
+        return 0

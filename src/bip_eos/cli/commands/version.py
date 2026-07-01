@@ -1,35 +1,16 @@
-#!/usr/bin/env python3
-"""
-version.py
-
-BIP EOS Version Command
-"""
-
-from __future__ import annotations
-
-from bip_eos.application import Application
+from bip_eos.cli.command import Command
 
 
-def run(argv=None):
-    app = Application()
-    return app.runtime.version.status()
+class VersionCommand(Command):
 
+    name = "version"
 
-def main():
-    print("=" * 70)
-    print("BIP EOS Version")
-    print("=" * 70)
+    description = "Display UEOS version."
 
-    info = run()
+    aliases = ["ver"]
 
-    print(f"Product   : {info.get('product')}")
-    print(f"Version   : {info.get('version')}")
-    print(f"Codename  : {info.get('codename')}")
-    print(f"Build     : {info.get('build')}")
-    print(f"Released  : {info.get('released')}")
+    def execute(self, args: list[str]) -> int:
 
-    print("=" * 70)
+        print("UEOS 0.1.0 Genesis")
 
-
-if __name__ == "__main__":
-    main()
+        return 0

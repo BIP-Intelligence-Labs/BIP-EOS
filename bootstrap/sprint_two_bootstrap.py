@@ -10,20 +10,20 @@ Creates the Builder Intelligence Platform foundation.
 from pathlib import Path
 
 DIRECTORIES = [
-    "src/bip_eos/builders/models",
-    "src/bip_eos/builders/services",
-    "src/bip_eos/builders/repositories",
-    "src/bip_eos/builders/api",
-    "src/bip_eos/builders/questionnaire",
-    "src/bip_eos/builders/recommendation",
-    "src/bip_eos/builders/reports",
-    "src/bip_eos/builders/crm",
+    "src/bip_eos/home_builders/models",
+    "src/bip_eos/home_builders/services",
+    "src/bip_eos/home_builders/repositories",
+    "src/bip_eos/home_builders/api",
+    "src/bip_eos/home_builders/questionnaire",
+    "src/bip_eos/home_builders/recommendation",
+    "src/bip_eos/home_builders/reports",
+    "src/bip_eos/home_builders/crm",
     "src/bip_eos/database",
     "src/bip_eos/integrations",
 ]
 
 FILES = {
-    "src/bip_eos/builders/__init__.py": "# Builder Intelligence Platform\n",
+    "src/bip_eos/home_builders/__init__.py": "# Builder Intelligence Platform\n",
     "src/bip_eos/database/__init__.py": "# Database package\n",
     "src/bip_eos/integrations/__init__.py": "# Integrations package\n",
     "engineering/sprints/SPRINT_02.md": """# Sprint 2

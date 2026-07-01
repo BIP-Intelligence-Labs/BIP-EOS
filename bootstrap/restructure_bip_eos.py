@@ -18,15 +18,15 @@ DIRS = [
     "src/bip_eos/database",
     "src/bip_eos/integrations",
 
-    "src/bip_eos/builders",
-    "src/bip_eos/builders/api",
-    "src/bip_eos/builders/crm",
-    "src/bip_eos/builders/models",
-    "src/bip_eos/builders/questionnaire",
-    "src/bip_eos/builders/recommendation",
-    "src/bip_eos/builders/reports",
-    "src/bip_eos/builders/repositories",
-    "src/bip_eos/builders/services",
+    "src/bip_eos/home_builders",
+    "src/bip_eos/home_builders/api",
+    "src/bip_eos/home_builders/crm",
+    "src/bip_eos/home_builders/models",
+    "src/bip_eos/home_builders/questionnaire",
+    "src/bip_eos/home_builders/recommendation",
+    "src/bip_eos/home_builders/reports",
+    "src/bip_eos/home_builders/repositories",
+    "src/bip_eos/home_builders/services",
 ]
 
 def ensure_package(path: Path):

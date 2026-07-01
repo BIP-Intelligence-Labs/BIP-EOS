@@ -1,20 +1,8 @@
-#!/usr/bin/env python3
-"""
-__main__.py
+from bip_eos.runtime.runtime import create_runtime
 
-Allows BIP EOS to be started with:
-
-    python -m bip_eos
-"""
-
-from __future__ import annotations
-
-from bip_eos.launcher import launch
-
-
-def main() -> int:
-    return launch()
-
+def main() -> None:
+    runtime = create_runtime()
+    runtime.start()
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()

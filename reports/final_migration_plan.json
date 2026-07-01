@@ -25,7 +25,7 @@
   },
   {
     "item": "__init__.py",
-    "source": "src\\genesis\\builders\\__init__.py",
+    "source": "src\\genesis\\home_builders\\__init__.py",
     "target": "src\\genesis\\__init__.py",
     "source_role": "Production Source",
     "target_role": "Production Source",
@@ -225,7 +225,7 @@
   },
   {
     "item": "manifest.yaml",
-    "source": "plugins\\builders\\manifest.yaml",
+    "source": "plugins\\home_builders\\manifest.yaml",
     "target": "plugins\\academy\\manifest.yaml",
     "source_role": "Plugin Runtime",
     "target_role": "Plugin Runtime",
@@ -257,7 +257,7 @@
   },
   {
     "item": "plugin.py",
-    "source": "plugins\\builders\\plugin.py",
+    "source": "plugins\\home_builders\\plugin.py",
     "target": "plugins\\academy\\plugin.py",
     "source_role": "Plugin Runtime",
     "target_role": "Plugin Runtime",

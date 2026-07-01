@@ -29,14 +29,14 @@ MODULES = [
     "bip_eos.cli",
 
     # Builder Domains
-    "bip_eos.builders.lead",
-    "bip_eos.builders.builder",
-    "bip_eos.builders.community",
-    "bip_eos.builders.inventory",
-    "bip_eos.builders.questionnaire",
-    "bip_eos.builders.recommendation",
-    "bip_eos.builders.report",
-    "bip_eos.builders.appointment",
+    "bip_eos.home_builders.lead",
+    "bip_eos.home_builders.home_builder",
+    "bip_eos.home_builders.home_communities",
+    "bip_eos.home_builders.inventory_homes",
+    "bip_eos.home_builders.questionnaire",
+    "bip_eos.home_builders.recommendations",
+    "bip_eos.home_builders.buyer_reports",
+    "bip_eos.home_builders.appointment",
 ]
 
 print("=" * 70)

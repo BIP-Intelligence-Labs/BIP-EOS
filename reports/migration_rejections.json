@@ -523,7 +523,7 @@
   },
   {
     "item": "README.md",
-    "source": "plugins\\builders\\README.md",
+    "source": "plugins\\home_builders\\README.md",
     "target": "README.md",
     "source_role": "Plugin Runtime",
     "target_role": "Unclassified",

@@ -17,12 +17,12 @@ import sys
 ROOT = Path.cwd()
 
 LEGACY = [
-    "src/bip_eos/builders/api",
-    "src/bip_eos/builders/crm",
-    "src/bip_eos/builders/models",
-    "src/bip_eos/builders/repositories",
-    "src/bip_eos/builders/reports",
-    "src/bip_eos/builders/services",
+    "src/bip_eos/home_builders/api",
+    "src/bip_eos/home_builders/crm",
+    "src/bip_eos/home_builders/models",
+    "src/bip_eos/home_builders/repositories",
+    "src/bip_eos/home_builders/reports",
+    "src/bip_eos/home_builders/services",
 ]
 
 force = "--force" in sys.argv

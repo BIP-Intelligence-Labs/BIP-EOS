@@ -250,7 +250,7 @@
     "reason": "Duplicate requires manual review before migration."
   },
   {
-    "item": "plugins\\builders\\README.md",
+    "item": "plugins\\home_builders\\README.md",
     "risk": "MEDIUM",
     "reason": "Duplicate requires manual review before migration."
   },
@@ -575,7 +575,7 @@
     "reason": "Duplicate requires manual review before migration."
   },
   {
-    "item": "src\\genesis\\builders\\__init__.py",
+    "item": "src\\genesis\\home_builders\\__init__.py",
     "risk": "MEDIUM",
     "reason": "Duplicate requires manual review before migration."
   },
@@ -725,7 +725,7 @@
     "reason": "Duplicate requires manual review before migration."
   },
   {
-    "item": "plugins\\builders\\manifest.yaml",
+    "item": "plugins\\home_builders\\manifest.yaml",
     "risk": "MEDIUM",
     "reason": "Duplicate requires manual review before migration."
   },
@@ -745,7 +745,7 @@
     "reason": "Duplicate requires manual review before migration."
   },
   {
-    "item": "plugins\\builders\\plugin.py",
+    "item": "plugins\\home_builders\\plugin.py",
     "risk": "MEDIUM",
     "reason": "Duplicate requires manual review before migration."
   },

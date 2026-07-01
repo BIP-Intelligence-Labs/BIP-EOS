@@ -235,7 +235,7 @@ Duplicate groups analyzed: 43
   - docs\README.md
   - plugins\academy\README.md
   - plugins\ai\README.md
-  - plugins\builders\README.md
+  - plugins\home_builders\README.md
   - plugins\reports\README.md
   - plugins\sales\README.md
   - bootstrap\academy\README.md
@@ -321,7 +321,7 @@ Duplicate groups analyzed: 43
   - src\genesis\__init__.py
   - src\genesis\academy\__init__.py
   - src\genesis\ai\__init__.py
-  - src\genesis\builders\__init__.py
+  - src\genesis\home_builders\__init__.py
   - src\genesis\bundles\__init__.py
   - src\genesis\cli\__init__.py
   - src\genesis\core\__init__.py
@@ -386,7 +386,7 @@ Duplicate groups analyzed: 43
 - Candidates:
   - plugins\academy\manifest.yaml
   - plugins\ai\manifest.yaml
-  - plugins\builders\manifest.yaml
+  - plugins\home_builders\manifest.yaml
   - plugins\reports\manifest.yaml
   - plugins\sales\manifest.yaml
 
@@ -397,7 +397,7 @@ Duplicate groups analyzed: 43
 - Candidates:
   - plugins\academy\plugin.py
   - plugins\ai\plugin.py
-  - plugins\builders\plugin.py
+  - plugins\home_builders\plugin.py
   - plugins\reports\plugin.py
   - plugins\sales\plugin.py
   - bootstrap\plugins\discovery\plugin.py

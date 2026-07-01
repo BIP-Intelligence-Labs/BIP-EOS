@@ -13,10 +13,10 @@ ROOT = Path(__file__).resolve().parent.parent
 
 FOLDERS = [
     "bootstrap","bip","bip/core","bip/cli","bip/docs","bip/adr",
-    "bip/plugins","bip/academy","bip/ai","bip/builders","bip/sales",
+    "bip/plugins","bip/academy","bip/ai","bip/home_builders","bip/sales",
     "bip/reports","docs","docs/adr","docs/governance",
     "docs/architecture","docs/api","docs/engineering","logs",
-    "plugins","plugins/academy","plugins/ai","plugins/builders",
+    "plugins","plugins/academy","plugins/ai","plugins/home_builders",
     "plugins/sales","plugins/reports","registry","templates","tests"
 ]
 

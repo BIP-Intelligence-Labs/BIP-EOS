@@ -29,7 +29,7 @@ BOOTSTRAPS = {
     "engineering": "bootstrap/engineering/bootstrap_engineering_foundation_v1.py",
     "runtime": "bootstrap/runtime/bootstrap_runtime_reorganization_v1.py",
     "registry": "bootstrap/registry/bootstrap_registry_v3.py",
-    "builders": "bootstrap/builders/bootstrap_bfs001_bootstrap_framework.py",
+    "builders": "bootstrap/home_builders/bootstrap_bfs001_bootstrap_framework.py",
     "migrations": "bootstrap/migrations/migrate_egf_to_epf.py",
 }
 

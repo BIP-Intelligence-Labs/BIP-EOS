@@ -45,7 +45,7 @@
     "role": "Unclassified"
   },
   {
-    "path": "bip/builders",
+    "path": "bip/home_builders",
     "type": "directory",
     "role": "Unclassified"
   },
@@ -1630,22 +1630,22 @@
     "role": "Plugin Runtime"
   },
   {
-    "path": "plugins/builders",
+    "path": "plugins/home_builders",
     "type": "directory",
     "role": "Plugin Runtime"
   },
   {
-    "path": "plugins/builders/manifest.yaml",
+    "path": "plugins/home_builders/manifest.yaml",
     "type": "file",
     "role": "Plugin Runtime"
   },
   {
-    "path": "plugins/builders/plugin.py",
+    "path": "plugins/home_builders/plugin.py",
     "type": "file",
     "role": "Plugin Runtime"
   },
   {
-    "path": "plugins/builders/README.md",
+    "path": "plugins/home_builders/README.md",
     "type": "file",
     "role": "Plugin Runtime"
   },
@@ -1845,7 +1845,7 @@
     "role": "Production Source"
   },
   {
-    "path": "src/genesis/builders/__init__.py",
+    "path": "src/genesis/home_builders/__init__.py",
     "type": "file",
     "role": "Production Source"
   },

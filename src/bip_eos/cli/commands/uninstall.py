@@ -1,0 +1,1 @@
+"""UEOS uninstall command."""

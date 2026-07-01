@@ -13,11 +13,11 @@ import sys
 ROOT = Path.cwd()
 
 ALLOW_LIST = [
-    ROOT / "src/bip_eos/builders/api",
-    ROOT / "src/bip_eos/builders/models",
-    ROOT / "src/bip_eos/builders/repositories",
-    ROOT / "src/bip_eos/builders/reports",
-    ROOT / "src/bip_eos/builders/services",
+    ROOT / "src/bip_eos/home_builders/api",
+    ROOT / "src/bip_eos/home_builders/models",
+    ROOT / "src/bip_eos/home_builders/repositories",
+    ROOT / "src/bip_eos/home_builders/reports",
+    ROOT / "src/bip_eos/home_builders/services",
 ]
 
 APPLY = "--apply" in sys.argv

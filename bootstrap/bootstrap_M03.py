@@ -52,7 +52,7 @@ def verify():
         ("bip_eos", lambda: importlib.import_module("bip_eos")),
         ("config", lambda: importlib.import_module("bip_eos.config")),
         ("database", lambda: importlib.import_module("bip_eos.database")),
-        ("builders", lambda: importlib.import_module("bip_eos.builders")),
+        ("builders", lambda: importlib.import_module("bip_eos.home_builders")),
     ]
 
     ok = True

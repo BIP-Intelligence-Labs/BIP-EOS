@@ -250,7 +250,7 @@
     "action": "REVIEW"
   },
   {
-    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\builders\\README.md",
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\home_builders\\README.md",
     "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\docs\\README.md",
     "action": "REVIEW"
   },
@@ -575,7 +575,7 @@
     "action": "REVIEW"
   },
   {
-    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\builders\\__init__.py",
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\src\\genesis\\home_builders\\__init__.py",
     "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\bootstrap\\academy\\__init__.py",
     "action": "REVIEW"
   },
@@ -725,7 +725,7 @@
     "action": "REVIEW"
   },
   {
-    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\builders\\manifest.yaml",
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\home_builders\\manifest.yaml",
     "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\manifest.yaml",
     "action": "REVIEW"
   },
@@ -745,7 +745,7 @@
     "action": "REVIEW"
   },
   {
-    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\builders\\plugin.py",
+    "source": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\home_builders\\plugin.py",
     "target": "C:\\Project\\BIP-Intelligence-Labs\\genesis\\plugins\\academy\\plugin.py",
     "action": "REVIEW"
   },
