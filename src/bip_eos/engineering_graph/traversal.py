@@ -1,5 +1,7 @@
-"""Traversal algorithms."""
-from collections import deque
+"""
+Compatibility wrapper for graph traversal.
 
-def breadth_first(graph,start):
-    return []
+Deprecated:
+    Import from bip_eos.graph.traversal.traversal instead.
+"""
+from bip_eos.graph.traversal.traversal import *  # noqa: F401,F403

@@ -1,5 +1,7 @@
-"""Graph serializer."""
-import json
+"""
+Compatibility wrapper for graph serialization.
 
-def to_json(graph):
-    return json.dumps(graph.stats(), indent=2)
+Deprecated:
+    Import from bip_eos.graph.serialization.serializer instead.
+"""
+from bip_eos.graph.serialization.serializer import *  # noqa: F401,F403
