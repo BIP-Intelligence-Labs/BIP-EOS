@@ -1,0 +1,2 @@
+class UEOSCLIError(Exception):
+    pass

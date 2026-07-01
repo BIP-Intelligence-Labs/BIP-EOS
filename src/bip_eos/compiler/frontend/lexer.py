@@ -3,8 +3,6 @@ lexer.py
 
 BIP EOS Compiler
 C04 — Lexer
-
-Converts characters from a Scanner into immutable Token objects.
 """
 
 from __future__ import annotations
@@ -18,32 +16,53 @@ from .keywords import resolve_identifier
 
 
 class Lexer:
-    """Simple production-ready lexer foundation."""
+    """
+    BIP EOS lexical analyzer.
+
+    Current capabilities
+
+    ✓ EOF
+    ✓ Whitespace
+    ✓ Identifiers
+    ✓ Keywords
+    ✓ Integer literals
+    ✓ Floating-point literals
+
+    Planned
+
+    □ Strings
+    □ Operators
+    □ Delimiters
+    □ Comments
+    """
 
     def __init__(self, scanner: Scanner):
         self.scanner = scanner
 
+    # ---------------------------------------------------------
+    # Public API
+    # ---------------------------------------------------------
+
     def tokenize(self) -> Iterator[Token]:
-        """Yield tokens until EOF."""
         while True:
+
             token = self.next_token()
+
             yield token
-            if token.token_type == TokenType.EOF:
+
+            if token.is_eof:
                 break
 
-    def next_token(self) -> Token:
-        """
-        Placeholder implementation.
+    # ---------------------------------------------------------
+    # Core
+    # ---------------------------------------------------------
 
-        C04 will incrementally add:
-        - whitespace skipping
-        - identifiers/keywords
-        - numeric literals
-        - string literals
-        - operators
-        - delimiters
-        """
+    def next_token(self) -> Token:
+
+        self.skip_whitespace()
+
         if self.scanner.is_at_end():
+
             return Token(
                 token_type=TokenType.EOF,
                 lexeme="",
@@ -53,26 +72,106 @@ class Lexer:
 
         ch = self.scanner.advance()
 
+        #
+        # Identifier
+        #
+
         if ch.isalpha() or ch == "_":
-            lexeme = ch
-            while (
-                not self.scanner.is_at_end()
-                and (self.scanner.peek().isalnum() or self.scanner.peek() == "_")
-            ):
-                lexeme += self.scanner.advance()
+            return self.read_identifier(ch)
 
-            token_type = resolve_identifier(lexeme)
+        #
+        # Number
+        #
 
-            return Token(
-                token_type=token_type,
-                lexeme=lexeme,
-                value=lexeme,
-                span=self.scanner.current_span(),
-            )
+        if ch.isdigit():
+            return self.read_number(ch)
+
+        #
+        # Unknown
+        #
 
         return Token(
             token_type=TokenType.ERROR,
             lexeme=ch,
-            value=f"Unexpected character: {ch}",
+            value=f"Unexpected character '{ch}'",
+            span=self.scanner.current_span(),
+        )
+
+    # ---------------------------------------------------------
+    # Helpers
+    # ---------------------------------------------------------
+
+    def skip_whitespace(self) -> None:
+
+        while not self.scanner.is_at_end():
+
+            ch = self.scanner.peek()
+
+            if ch in (" ", "\t", "\r", "\n"):
+
+                self.scanner.advance()
+                continue
+
+            break
+
+    def read_identifier(self, first: str) -> Token:
+
+        lexeme = first
+
+        while (
+            not self.scanner.is_at_end()
+            and (
+                self.scanner.peek().isalnum()
+                or self.scanner.peek() == "_"
+            )
+        ):
+            lexeme += self.scanner.advance()
+
+        token_type = resolve_identifier(lexeme)
+
+        return Token(
+            token_type=token_type,
+            lexeme=lexeme,
+            value=lexeme,
+            span=self.scanner.current_span(),
+        )
+
+    def read_number(self, first: str) -> Token:
+        """
+        Read an integer or floating-point literal.
+        """
+
+        lexeme = first
+        is_float = False
+
+        while not self.scanner.is_at_end():
+
+            ch = self.scanner.peek()
+
+            if ch.isdigit():
+                lexeme += self.scanner.advance()
+                continue
+
+            if (
+                ch == "."
+                and not is_float
+            ):
+                is_float = True
+                lexeme += self.scanner.advance()
+                continue
+
+            break
+
+        if is_float:
+            token_type = TokenType.FLOAT
+            value = float(lexeme)
+        else:
+            token_type = TokenType.INTEGER
+            value = int(lexeme)
+
+        return Token(
+            token_type=token_type,
+            lexeme=lexeme,
+            value=value,
             span=self.scanner.current_span(),
         )

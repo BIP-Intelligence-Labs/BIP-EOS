@@ -1,4 +1,4 @@
-"""Template renderer."""
+"""UEOS Template Renderer"""
 
-def run():
-    print('renderer ready')
+class TemplateRenderer:
+    pass

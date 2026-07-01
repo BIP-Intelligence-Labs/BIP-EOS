@@ -1,0 +1,9 @@
+name: EngineeringRecord
+version: 1.0.0
+required:
+  - id
+  - family
+  - title
+  - owner
+  - version
+  - status

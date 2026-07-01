@@ -1,0 +1,11 @@
+constitution: "UEOS Engineering Foundation"
+version: "1.0.0"
+
+sections:
+  - constitution
+  - standards
+  - metamodel
+  - architecture
+  - governance
+  - specifications
+  - knowledge

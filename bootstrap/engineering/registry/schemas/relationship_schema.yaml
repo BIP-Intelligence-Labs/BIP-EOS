@@ -1,0 +1,6 @@
+relationships:
+  - depends_on
+  - references
+  - related_records
+  - supersedes
+  - superseded_by

@@ -1,0 +1,29 @@
+{
+    "name": "BIP Universal Ecosystem Registry",
+    "version": "1.0.0",
+    "description": "Canonical Engineering Registry",
+    "storage": "JSON",
+    "runtime": "Python Standard Library",
+    "template_engine": "Native Templates",
+    "dependencies": [],
+    "families": [
+        "EA",
+        "EC",
+        "ADR",
+        "ES",
+        "EG",
+        "SSC",
+        "SP",
+        "ER",
+        "QR",
+        "SR",
+        "RM",
+        "OP",
+        "AP",
+        "AI",
+        "PR",
+        "RE",
+        "TS",
+        "VM"
+    ]
+}

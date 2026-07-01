@@ -1,0 +1,3 @@
+ai:
+  embeddings: true
+  summary: true

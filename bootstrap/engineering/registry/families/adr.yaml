@@ -1,0 +1,6 @@
+family: ADR
+title: ADR Registry
+owner: Engineering
+version: 1.0.0
+status: Draft
+description: Canonical Engineering Record family.

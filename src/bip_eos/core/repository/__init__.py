@@ -1,1 +1,0 @@
-"""BIP EOS package."""

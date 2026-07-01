@@ -1,0 +1,7 @@
+states:
+  - Draft
+  - Review
+  - Approved
+  - Published
+  - Deprecated
+  - Archived

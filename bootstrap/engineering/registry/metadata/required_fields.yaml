@@ -1,0 +1,7 @@
+fields:
+  - id
+  - family
+  - title
+  - owner
+  - version
+  - status

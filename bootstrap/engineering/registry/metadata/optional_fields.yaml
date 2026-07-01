@@ -1,0 +1,6 @@
+fields:
+  - description
+  - tags
+  - keywords
+  - reviewers
+  - approvers
