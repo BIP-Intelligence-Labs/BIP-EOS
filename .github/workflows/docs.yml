@@ -4,3 +4,20 @@ on:
   push:
     paths:
       - "docs/**"
+      - "engineering/**"
+      - "README.md"
+
+  workflow_dispatch:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Documentation check
+        run: |
+          echo "UEOS Documentation Workflow"
+          echo "Documentation changed successfully."
