@@ -1,1 +1,1 @@
-"""BIP EOS package."""
+"""UEOS AI Runtime."""
