@@ -1,2 +1,62 @@
-def execute():
-    print('Install command coming online.')
+"""
+install.py
+
+UEOS CLI
+Package Install Command
+"""
+
+from __future__ import annotations
+
+import argparse
+from pathlib import Path
+
+from bip_eos.package_manager.service import (
+    PackageManagerConfig,
+    PackageManagerService,
+)
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(
+        prog="ueos install",
+        description="Install a UEOS package manifest.",
+    )
+    parser.add_argument(
+        "manifest",
+        help="Path to package manifest (JSON).",
+    )
+    parser.add_argument(
+        "--registry",
+        default=".ueos/registry",
+    )
+    parser.add_argument(
+        "--cache",
+        default=".ueos/cache",
+    )
+    parser.add_argument(
+        "--packages",
+        default=".ueos/packages",
+    )
+    return parser
+
+
+def main() -> int:
+    args = build_parser().parse_args()
+
+    service = PackageManagerService(
+        PackageManagerConfig(
+            registry_path=Path(args.registry),
+            cache_path=Path(args.cache),
+            install_path=Path(args.packages),
+        )
+    )
+
+    result = service.install(args.manifest)
+
+    print(result.message)
+
+    return 0 if result.success else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

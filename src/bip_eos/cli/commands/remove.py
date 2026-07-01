@@ -1,8 +1,8 @@
 """
-list.py
+remove.py
 
 UEOS CLI
-Package List Command
+Package Remove Command
 """
 
 from __future__ import annotations
@@ -18,8 +18,12 @@ from bip_eos.package_manager.service import (
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="ueos list",
-        description="List installed UEOS packages.",
+        prog="ueos remove",
+        description="Remove an installed UEOS package.",
+    )
+    parser.add_argument(
+        "package",
+        help="Package name to remove.",
     )
     parser.add_argument("--registry", default=".ueos/registry")
     parser.add_argument("--cache", default=".ueos/cache")
@@ -38,19 +42,11 @@ def main() -> int:
         )
     )
 
-    packages = service.list_installed()
+    result = service.uninstall(args.package)
 
-    if not packages:
-        print("No packages installed.")
-        return 0
+    print(result.message)
 
-    print("Installed packages")
-    print("-" * 40)
-
-    for package in packages:
-        print(package)
-
-    return 0
+    return 0 if result.success else 1
 
 
 if __name__ == "__main__":
