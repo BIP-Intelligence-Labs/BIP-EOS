@@ -1,0 +1,100 @@
+# Namespace Migration v3
+
+Mode: DRY RUN
+
+Files changed: 0
+
+## Modified Files
+
+## Remaining 'bip_eos' References
+- atlas_m0064_kickoff.py
+- bootstrap_be001_generate_ueos_architecture.py
+- bootstrap_cli_commands_v1_FIXED2.py
+- bootstrap_compiler_architecture_sync.py
+- bootstrap_compiler_frontend_structure.py
+- bootstrap_compiler_scanner.py
+- bootstrap_ers001.py
+- bootstrap_m004_repository_consolidation.py
+- bootstrap_m006_enterprise_cli.py
+- bootstrap_mgs001_constitution.py
+- bootstrap_mgs001_repository_migration_plan.py
+- bootstrap_mgs001_services_refactor.py
+- bootstrap_mgs001_validator.py
+- bootstrap_namespace_completion.py
+- bootstrap_release_branding.py
+- bootstrap_repository_hierarchy.py
+- bootstrap_ueg001.py
+- bootstrap_ueos002_runtime (1).py
+- bootstrap_ueos002_runtime.py
+- bootstrap_ueos_cli_framework.py
+- bootstrap_ueos_cli_v1.py
+- bootstrap_ueos_m003.py
+- bootstrap_ueos_phase2.py
+- bootstrap_ueos_phase2_FIXED.py
+- bootstrap_ueos_phase2_WORKING.py
+- bootstrap_uepm001_package_manager.py
+- bootstrap_update_pyproject_ueos.py
+- bootstrap_version_subsystem.py
+- bootstrap_version_system.py
+- create_bip_eos_package.py
+- genesis_architecture_rollback.py
+- m006_4_package_manager_bootstrap.py
+- migration_executor.py
+- namespace_inventory.py
+- namespace_migrator_v2.py
+- namespace_migrator_v3.py
+- ueos_architecture_audit_v1.py
+- bootstrap/bootstrap_config_package.py
+- bootstrap/bootstrap_database.py
+- bootstrap/bootstrap_domain_architecture.py
+- bootstrap/bootstrap_lead_model.py
+- bootstrap/bootstrap_m02_domain_architecture.py
+- bootstrap/bootstrap_M03.py
+- bootstrap/bootstrap_repository.py
+- bootstrap/bootstrap_shared_package.py
+- bootstrap/foundation_migrator.py
+- bootstrap/generate_boot_documentation.py
+- bootstrap/governance_bootstrap.py
+- bootstrap/pyproject_bootstrap.py
+- bootstrap/remove_layered_builders.py
+- bootstrap/remove_unused_packages.py
+- bootstrap/restructure_bip_eos.py
+- bootstrap/safe_builder_cleanup.py
+- bootstrap/search_imports.py
+- bootstrap/sprint_two_bootstrap.py
+- bootstrap/test_runtime.py
+- bootstrap/upgrade_pyproject.py
+- bootstrap/verify_builder_cleanup.py
+- bootstrap/verify_reports_plugin.py
+- src/ueos.egg-info/SOURCES.txt
+- src/ueos.egg-info/top_level.txt
+- src/ueos/cli/command_loader.py
+- src/ueos/cli/config.py
+- src/ueos/cli/main.py
+- src/ueos/services/compiler/service.py
+- src/ueos/services/doctor/service.py
+- src/ueos/services/graph/service.py
+- src/ueos/services/package_manager/service.py
+- src/ueos/services/registry/service.py
+- src/ueos/services/runtime/service.py
+- src/ueos/migration/services/planner.py
+- src/ueos/graph/services/builder.py
+- engineering/governance/BIP_EOS_DEVELOPMENT_RULES.md
+- engineering/milestones/M-002/M-002.1-Domain-Architecture.md
+- engineering/milestones/M-006/Atlas_M-006.4_Package_Manager.md
+- engineering/milestones/M-006/M-006.1-Runtime-Boot.md
+- engineering/milestones/M-006/M-006.2-Command-Dispatcher.md
+- engineering/milestones/M-006/M-006.3-Runtime-Services.md
+- engineering/architecture/decisions/ADR-0010-Graph-Kernel-Extraction.md
+- engineering/architecture/UEOS-Architecture/UEOS-Architecture.md
+- bootstrap/architecture/bootstrap_runtime_architecture_v2.py
+- bootstrap/architecture/bootstrap_ueg001_structure.py
+- bootstrap/engineering/bootstrap_eaus003_discovery_engine.py
+- bootstrap/engineering/bootstrap_eaus003_discovery_engine_v2.py
+- bootstrap/runtime/bootstrap_runtime_cleanup_v1.py
+- bootstrap/runtime/bootstrap_runtime_reorganization_v1.py
+- bootstrap/compiler/frontend/bootstrap_tokens.py
+- bootstrap/compiler/frontend/report_tokens.py
+- bootstrap/compiler/frontend/verify_lexer.py
+- bootstrap/compiler/frontend/verify_tokens.py
+- bootstrap/compiler/generators/ast_generator.py

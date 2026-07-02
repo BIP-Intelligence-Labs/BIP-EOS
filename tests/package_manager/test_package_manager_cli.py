@@ -31,7 +31,7 @@ def test_install_command(tmp_path):
         [
             sys.executable,
             "-m",
-            "bip_eos.cli.commands.install",
+            "ueos.cli.commands.install",
             str(manifest),
             "--registry",
             str(tmp_path / "registry"),
@@ -53,7 +53,7 @@ def test_list_command(tmp_path):
         [
             sys.executable,
             "-m",
-            "bip_eos.cli.commands.list",
+            "ueos.cli.commands.list",
             "--registry",
             str(tmp_path / "registry"),
             "--cache",
@@ -74,7 +74,7 @@ def test_search_command():
         [
             sys.executable,
             "-m",
-            "bip_eos.cli.commands.search",
+            "ueos.cli.commands.search",
             "compiler",
         ],
         capture_output=True,

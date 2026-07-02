@@ -1,5 +1,5 @@
 from pathlib import Path
-from bip_eos.compiler.frontend.scanner import Scanner
+from ueos.compiler.frontend.scanner import Scanner
 
 def test_scanner_discovers_files():
     scanner = Scanner()

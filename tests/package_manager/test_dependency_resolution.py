@@ -9,8 +9,8 @@ Validates dependency resolution through the package manager.
 
 from __future__ import annotations
 
-from bip_eos.package_manager.manifest import PackageManifest
-from bip_eos.package_manager.resolver import DependencyResolver
+from ueos.package_manager.manifest import PackageManifest
+from ueos.package_manager.resolver import DependencyResolver
 
 
 def test_dependency_resolution_success():

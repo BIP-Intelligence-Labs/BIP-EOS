@@ -1,0 +1,3 @@
+- [ ] Scan Python
+- [ ] Scan configs
+- [ ] Generate report

@@ -10,7 +10,7 @@ from __future__ import annotations
 import hashlib
 import json
 
-from bip_eos.package_manager.verifier import PackageVerifier
+from ueos.package_manager.verifier import PackageVerifier
 
 
 def test_verify_manifest_success(tmp_path):

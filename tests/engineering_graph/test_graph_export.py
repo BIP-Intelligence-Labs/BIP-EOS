@@ -3,7 +3,7 @@ import sys
 
 def test_export_cli_runs():
     result = subprocess.run(
-        [sys.executable, "-m", "bip_eos.cli.commands.export"],
+        [sys.executable, "-m", "ueos.cli.commands.export"],
         capture_output=True,
         text=True,
     )

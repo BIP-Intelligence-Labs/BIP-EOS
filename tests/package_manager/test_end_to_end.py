@@ -12,12 +12,12 @@ from __future__ import annotations
 import hashlib
 import json
 
-from bip_eos.package_manager.cache import PackageCache
-from bip_eos.package_manager.service import (
+from ueos.package_manager.cache import PackageCache
+from ueos.package_manager.service import (
     PackageManagerConfig,
     PackageManagerService,
 )
-from bip_eos.package_manager.verifier import PackageVerifier
+from ueos.package_manager.verifier import PackageVerifier
 
 
 def test_end_to_end_package_workflow(tmp_path):

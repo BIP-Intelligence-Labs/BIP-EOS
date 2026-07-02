@@ -1,0 +1,6 @@
+- [ ] Version Updated
+- [ ] Changelog
+- [ ] Git Tag
+- [ ] Build
+- [ ] Tests Passed
+- [ ] GitHub Release

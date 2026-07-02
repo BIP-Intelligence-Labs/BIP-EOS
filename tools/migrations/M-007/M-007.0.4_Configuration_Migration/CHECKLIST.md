@@ -1,0 +1,5 @@
+- [ ] pyproject.toml
+- [ ] console_scripts
+- [ ] package metadata
+- [ ] GitHub workflows
+- [ ] Validation

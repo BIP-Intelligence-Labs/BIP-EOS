@@ -4,10 +4,10 @@ test_token.py
 Unit tests for the BIP EOS compiler Token.
 """
 
-from bip_eos.compiler.frontend.position import Position
-from bip_eos.compiler.frontend.span import Span
-from bip_eos.compiler.token import Token
-from bip_eos.compiler.token_type import TokenType
+from ueos.compiler.frontend.position import Position
+from ueos.compiler.frontend.span import Span
+from ueos.compiler.token import Token
+from ueos.compiler.token_type import TokenType
 
 
 def make_span() -> Span:

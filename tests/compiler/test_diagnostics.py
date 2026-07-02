@@ -1,4 +1,4 @@
-from bip_eos.compiler.frontend.diagnostics import Diagnostic
+from ueos.compiler.frontend.diagnostics import Diagnostic
 
 
 def test_diagnostic():

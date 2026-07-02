@@ -1,5 +1,5 @@
-from bip_eos.compiler.frontend.token import Token
-from bip_eos.compiler.frontend.token_type import TokenType
+from ueos.compiler.frontend.token import Token
+from ueos.compiler.frontend.token_type import TokenType
 
 
 def test_token_creation():

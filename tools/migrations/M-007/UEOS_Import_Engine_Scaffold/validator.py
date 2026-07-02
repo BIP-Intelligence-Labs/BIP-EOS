@@ -1,0 +1,2 @@
+class ImportValidator:
+    """Placeholder validator."""

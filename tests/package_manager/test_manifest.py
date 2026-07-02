@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import json
 
-from bip_eos.package_manager.manifest import (
+from ueos.package_manager.manifest import (
     ManifestLoader,
     ManifestError,
     PackageManifest,

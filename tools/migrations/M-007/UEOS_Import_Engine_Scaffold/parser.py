@@ -1,0 +1,2 @@
+class ImportParser:
+    """Placeholder parser."""

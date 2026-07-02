@@ -1,0 +1,4 @@
+- [ ] Clean working tree
+- [ ] Create tag
+- [ ] git mv src/bip_eos src/ueos
+- [ ] Validate

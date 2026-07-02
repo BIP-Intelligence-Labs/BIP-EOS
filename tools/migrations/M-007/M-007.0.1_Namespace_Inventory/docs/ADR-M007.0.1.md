@@ -1,0 +1,1 @@
+# ADR - Namespace Inventory

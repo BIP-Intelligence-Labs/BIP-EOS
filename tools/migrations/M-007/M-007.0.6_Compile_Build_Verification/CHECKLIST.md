@@ -1,0 +1,4 @@
+- [ ] Compile
+- [ ] Build
+- [ ] Install Verification
+- [ ] Report

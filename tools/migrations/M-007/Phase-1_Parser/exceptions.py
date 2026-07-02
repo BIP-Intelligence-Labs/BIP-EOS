@@ -1,0 +1,3 @@
+class Exceptions:
+    """Scaffold."""
+    pass

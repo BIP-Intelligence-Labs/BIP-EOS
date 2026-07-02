@@ -1,0 +1,27 @@
+# -----------------------------------------------------------------
+# M-007.1 Test Suite Normalization
+# Merge this into your existing pyproject.toml if not already present.
+# -----------------------------------------------------------------
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+
+testpaths = [
+    "tests",
+    "src/ueos/core/kernel/tests"
+]
+
+norecursedirs = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    "engineering",
+    "tools/migrations",
+    ".migration_backup"
+]
+
+python_files = [
+    "test_*.py"
+]

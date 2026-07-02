@@ -4,7 +4,7 @@ test_token_type.py
 Unit tests for the BIP EOS compiler TokenType.
 """
 
-from bip_eos.compiler.token_type import TokenType
+from ueos.compiler.token_type import TokenType
 
 
 def test_identifier_is_literal():

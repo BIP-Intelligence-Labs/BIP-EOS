@@ -1,5 +1,5 @@
-from bip_eos.compiler.frontend.lexer import Lexer
-from bip_eos.compiler.frontend.parser import Parser
+from ueos.compiler.frontend.lexer import Lexer
+from ueos.compiler.frontend.parser import Parser
 
 def test_compile_pipeline():
     tokens = Lexer("").tokenize()

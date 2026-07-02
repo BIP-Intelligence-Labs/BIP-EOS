@@ -1,4 +1,4 @@
-from bip_eos.engineering_graph.node import Node,NodeType
+from ueos.engineering_graph.node import Node,NodeType
 
 def test_node_label():
     n=Node("1","runtime",NodeType.MODULE)

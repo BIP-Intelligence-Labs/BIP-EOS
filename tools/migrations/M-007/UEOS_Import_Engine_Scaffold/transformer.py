@@ -1,0 +1,2 @@
+class ImportTransformer:
+    """Placeholder transformer."""

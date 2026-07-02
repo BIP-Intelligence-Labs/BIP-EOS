@@ -1,4 +1,4 @@
-from bip_eos.compiler.frontend.ast import ASTNode
+from ueos.compiler.frontend.ast import ASTNode
 
 
 def test_ast_node():

@@ -1,4 +1,4 @@
-from bip_eos.engineering_graph.repository_graph import RepositoryGraph
+from ueos.engineering_graph.repository_graph import RepositoryGraph
 
 def test_repository_graph_creation():
     graph = RepositoryGraph()

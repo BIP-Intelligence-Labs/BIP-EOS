@@ -53,7 +53,7 @@ Each wrapper re-exports the implementation from the Graph Framework.
 Example:
 
 ```python
-from bip_eos.graph.kernel.graph import *
+from ueos.graph.kernel.graph import *
 ```
 
 The wrappers are temporary and will be removed after all internal

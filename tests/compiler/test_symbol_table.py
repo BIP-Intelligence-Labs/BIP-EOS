@@ -1,4 +1,4 @@
-from bip_eos.compiler.frontend.symbol_table import SymbolTable
+from ueos.compiler.frontend.symbol_table import SymbolTable
 
 
 def test_symbol_table_define():

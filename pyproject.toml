@@ -5,11 +5,37 @@ description = "Universal Engineering Operating System"
 requires-python = ">=3.11"
 
 [project.scripts]
-ueos = "bip_eos.cli.ueos:main"
-bip = "bip_eos.cli.ueos:main"
+ueos = "ueos.cli.ueos:main"
+bip = "ueos.cli.ueos:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+# -----------------------------------------------------------------
+# M-007.1 Test Suite Normalization
+# -----------------------------------------------------------------
+[tool.pytest.ini_options]
+minversion = "8.0"
+
+testpaths = [
+    "tests",
+    "src/ueos/core/kernel/tests",
+]
+
+norecursedirs = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    "engineering",
+    "tools/migrations",
+    ".migration_backup",
+]
+
+python_files = [
+    "test_*.py",
+]

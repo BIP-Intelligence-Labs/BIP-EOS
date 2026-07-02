@@ -7,7 +7,7 @@ Package Cache Tests
 
 from __future__ import annotations
 
-from bip_eos.package_manager.cache import PackageCache
+from ueos.package_manager.cache import PackageCache
 
 
 def test_store_package(tmp_path):

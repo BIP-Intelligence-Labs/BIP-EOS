@@ -6,10 +6,10 @@ Unit tests for the BIP EOS compiler lexer.
 C04 — Lexer
 """
 
-from bip_eos.compiler.frontend.lexer import Lexer
-from bip_eos.compiler.frontend.scanner import Scanner
-from bip_eos.compiler.frontend.source_file import SourceFile
-from bip_eos.compiler.frontend.position import Position
+from ueos.compiler.frontend.lexer import Lexer
+from ueos.compiler.frontend.scanner import Scanner
+from ueos.compiler.frontend.source_file import SourceFile
+from ueos.compiler.frontend.position import Position
 
 
 def make_lexer(text: str) -> Lexer:

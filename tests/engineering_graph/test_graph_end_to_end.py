@@ -1,4 +1,4 @@
-from bip_eos.engineering_graph.graph_engine import EngineeringGraph, GraphNode, GraphEdge
+from ueos.engineering_graph.graph_engine import EngineeringGraph, GraphNode, GraphEdge
 
 def test_graph_workflow():
     graph = EngineeringGraph()

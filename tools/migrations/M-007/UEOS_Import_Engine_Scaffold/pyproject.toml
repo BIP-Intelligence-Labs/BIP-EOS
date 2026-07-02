@@ -1,0 +1,5 @@
+[project]
+name="ueos-import-engine"
+version="0.1.0"
+description="UEOS Import Migration Engine"
+requires-python=">=3.11"

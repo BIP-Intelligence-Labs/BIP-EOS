@@ -1,4 +1,4 @@
-from bip_eos.compiler.frontend.semantic_analyzer import SemanticAnalyzer
+from ueos.compiler.frontend.semantic_analyzer import SemanticAnalyzer
 
 
 def test_semantic_analyzer():

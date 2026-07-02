@@ -11,7 +11,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from bip_eos.package_manager.service import (
+from ueos.package_manager.service import (
     PackageManagerConfig,
     PackageManagerService,
 )
